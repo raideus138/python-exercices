@@ -1,0 +1,2162 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "tan",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "exp",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "mean",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "stdev",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "urllib",
+        "description": "urllib",
+        "isExtraImport": true,
+        "detail": "urllib",
+        "documentation": {}
+    },
+    {
+        "label": "URLError",
+        "importPath": "urllib.error",
+        "description": "urllib.error",
+        "isExtraImport": true,
+        "detail": "urllib.error",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "max",
+        "kind": 2,
+        "importPath": "exercices-level-1.exercice-1",
+        "description": "exercices-level-1.exercice-1",
+        "peekOfCode": "def max(a,b):\n    if a > b:\n        return a\n    else:\n        return b\nprint(max(5,6))",
+        "detail": "exercices-level-1.exercice-1",
+        "documentation": {}
+    },
+    {
+        "label": "histograma",
+        "kind": 2,
+        "importPath": "exercices-level-1.exercice-10",
+        "description": "exercices-level-1.exercice-10",
+        "peekOfCode": "def histograma(arreglo):\n    for i in arreglo:\n        print(i * '*')\nhistograma([5,3,65])",
+        "detail": "exercices-level-1.exercice-10",
+        "documentation": {}
+    },
+    {
+        "label": "max_de_tres",
+        "kind": 2,
+        "importPath": "exercices-level-1.exercice-2",
+        "description": "exercices-level-1.exercice-2",
+        "peekOfCode": "def max_de_tres(a,b,c):\n    if a > b:\n        if a > c:\n            return a\n    if b > a:\n        if b > c:\n            return b\n    if c > a:\n        if c > b:\n            return c",
+        "detail": "exercices-level-1.exercice-2",
+        "documentation": {}
+    },
+    {
+        "label": "len",
+        "kind": 2,
+        "importPath": "exercices-level-1.exercice-3",
+        "description": "exercices-level-1.exercice-3",
+        "peekOfCode": "def len(str):\n    len = 0\n    str = str.replace(\" \", \"\")\n    for char in str:\n        len += 1\n    return len\nprint(len('hola che'))",
+        "detail": "exercices-level-1.exercice-3",
+        "documentation": {}
+    },
+    {
+        "label": "vocals",
+        "kind": 2,
+        "importPath": "exercices-level-1.exercice-4",
+        "description": "exercices-level-1.exercice-4",
+        "peekOfCode": "def vocals(x):\n    vocales = 'aeiou'\n    if x in vocales:\n        return True\n    else:\n        return False\nprint(vocals('x'))",
+        "detail": "exercices-level-1.exercice-4",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 2,
+        "importPath": "exercices-level-1.exercice-5",
+        "description": "exercices-level-1.exercice-5",
+        "peekOfCode": "def sum(arreglo):\n    total = 0\n    for i in arreglo:\n        total += i\n    return total\ndef multip(arreglo):\n    total = arreglo[0]\n    for i in arreglo:\n        total *= i\n    return total",
+        "detail": "exercices-level-1.exercice-5",
+        "documentation": {}
+    },
+    {
+        "label": "multip",
+        "kind": 2,
+        "importPath": "exercices-level-1.exercice-5",
+        "description": "exercices-level-1.exercice-5",
+        "peekOfCode": "def multip(arreglo):\n    total = arreglo[0]\n    for i in arreglo:\n        total *= i\n    return total\nprint(sum([1,2,3,4,]))\nprint(multip([1,2,3,4]))",
+        "detail": "exercices-level-1.exercice-5",
+        "documentation": {}
+    },
+    {
+        "label": "inversa",
+        "kind": 2,
+        "importPath": "exercices-level-1.exercice-6",
+        "description": "exercices-level-1.exercice-6",
+        "peekOfCode": "def inversa(str):\n    return str[::-1]\nprint(inversa('hola che'))",
+        "detail": "exercices-level-1.exercice-6",
+        "documentation": {}
+    },
+    {
+        "label": "palindromo",
+        "kind": 2,
+        "importPath": "exercices-level-1.exercice-7",
+        "description": "exercices-level-1.exercice-7",
+        "peekOfCode": "def palindromo(str):\n    if str == str[::-1]:\n        return True\n    else:\n        return False\nprint(palindromo('hola che'))",
+        "detail": "exercices-level-1.exercice-7",
+        "documentation": {}
+    },
+    {
+        "label": "superposicion",
+        "kind": 2,
+        "importPath": "exercices-level-1.exercice-8",
+        "description": "exercices-level-1.exercice-8",
+        "peekOfCode": "def superposicion(a,b):\n    status = False\n    for i in a:\n        if a[i-1] == b[i-1]:\n            status = True\n    return status\nprint(superposicion([1,2,3,4,5],[9,8,7,6,5]))",
+        "detail": "exercices-level-1.exercice-8",
+        "documentation": {}
+    },
+    {
+        "label": "generar_n_caracteres",
+        "kind": 2,
+        "importPath": "exercices-level-1.exercice-9",
+        "description": "exercices-level-1.exercice-9",
+        "peekOfCode": "def generar_n_caracteres(n, char):\n    return char*n\nprint(generar_n_caracteres(5,'x'))",
+        "detail": "exercices-level-1.exercice-9",
+        "documentation": {}
+    },
+    {
+        "label": "nota",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-100",
+        "description": "exercices-level-10.exercice-100",
+        "peekOfCode": "def nota(cifra):\n    cifra = cifra.replace(',','.')\n    return float(cifra) \ndef calificaciones(ruta):\n    try:\n        f = open(ruta, 'r')\n    except FileNotFoundError:\n        print('El fichero no existe.')\n        return\n    lineas = f.readlines()",
+        "detail": "exercices-level-10.exercice-100",
+        "documentation": {}
+    },
+    {
+        "label": "calificaciones",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-100",
+        "description": "exercices-level-10.exercice-100",
+        "peekOfCode": "def calificaciones(ruta):\n    try:\n        f = open(ruta, 'r')\n    except FileNotFoundError:\n        print('El fichero no existe.')\n        return\n    lineas = f.readlines()\n    f.close()\n    claves = lineas[0][:-1].split(\";\")\n    calificaciones = []",
+        "detail": "exercices-level-10.exercice-100",
+        "documentation": {}
+    },
+    {
+        "label": "añadir_nota_final",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-100",
+        "description": "exercices-level-10.exercice-100",
+        "peekOfCode": "def añadir_nota_final(calificaciones):\n    def nota_final(alumno):\n        if alumno['Ordinario1']: \n            parcial1 = nota(alumno['Ordinario1'])\n        elif alumno['Parcial1']:\n            parcial1 = nota(alumno['Parcial1'])\n        else: \n            parcial1 = 0\n        if alumno['Ordinario2']:\n            parcial2 = nota(alumno['Ordinario2'])",
+        "detail": "exercices-level-10.exercice-100",
+        "documentation": {}
+    },
+    {
+        "label": "aprobados_suspensos",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-100",
+        "description": "exercices-level-10.exercice-100",
+        "peekOfCode": "def aprobados_suspensos(calificaciones):\n    aprobados = []\n    suspensos = []\n    for alumno in calificaciones:\n        if all([int(alumno['Asistencia'][:-1]) >= 75, alumno['Final1'] >= 4, alumno['Final2'] >=4, alumno['FinalPracticas'] >=4, alumno['NotaFinal'] >= 5]):\n            aprobados.append(alumno['Apellidos'] + ', ' + alumno['Nombre'])\n        else:\n            suspensos.append(alumno['Apellidos'] + ', ' + alumno['Nombre'])\n    return aprobados, suspensos\nprint(añadir_nota_final(calificaciones('calificaciones.csv')))",
+        "detail": "exercices-level-10.exercice-100",
+        "documentation": {}
+    },
+    {
+        "label": "grade",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-91",
+        "description": "exercices-level-10.exercice-91",
+        "peekOfCode": "def grade(score):\n    if score < 5:\n        return 'SS'\n    elif score < 7:\n        return 'AP'\n    elif score < 9:\n        return 'NT'\n    elif score < 10:\n        return 'SB'\n    else:",
+        "detail": "exercices-level-10.exercice-91",
+        "documentation": {}
+    },
+    {
+        "label": "apply_grade",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-91",
+        "description": "exercices-level-10.exercice-91",
+        "peekOfCode": "def apply_grade(scores):\n    subjects = map(str.upper, scores.keys())\n    grades = map(grade, scores.values())\n    return dict(zip(subjects, grades))\nprint(apply_grade({'Matemáticas':6.5, 'Física':5, 'Química':3.4, 'Economía':8.2, 'Historia':9.7, 'Programación':10}))",
+        "detail": "exercices-level-10.exercice-91",
+        "documentation": {}
+    },
+    {
+        "label": "modulo",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-92",
+        "description": "exercices-level-10.exercice-92",
+        "peekOfCode": "def modulo(vector):\n    x =  vector[0]**2\n    y =  vector[1]**2\n    x_y = x + y\n    return math.sqrt(x_y)\nprint(modulo([4,5]))",
+        "detail": "exercices-level-10.exercice-92",
+        "documentation": {}
+    },
+    {
+        "label": "atipico",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-93",
+        "description": "exercices-level-10.exercice-93",
+        "peekOfCode": "def atipico(muestra):\n    media = mean(muestra)\n    desviacion = stdev(muestra)\n    def f(n):\n        puntuacion = (n - media) / desviacion\n        return (puntuacion < -3) or (puntuacion > 3)\n    return f\ndef datos_atipicos(muestra):\n    return list(filter(atipico(muestra), muestra))\nprint(datos_atipicos([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1000]))",
+        "detail": "exercices-level-10.exercice-93",
+        "documentation": {}
+    },
+    {
+        "label": "datos_atipicos",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-93",
+        "description": "exercices-level-10.exercice-93",
+        "peekOfCode": "def datos_atipicos(muestra):\n    return list(filter(atipico(muestra), muestra))\nprint(datos_atipicos([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1000]))",
+        "detail": "exercices-level-10.exercice-93",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-94",
+        "description": "exercices-level-10.exercice-94",
+        "peekOfCode": "def number(n):\n    file = open(f'tabla-{n}.txt', 'w')\n    for i in range(1,11):\n        file.write(f'{i} x {n} = {i*n}\\n')\nnumber(5)",
+        "detail": "exercices-level-10.exercice-94",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercices-level-10.exercice-95",
+        "description": "exercices-level-10.exercice-95",
+        "peekOfCode": "n = int(input('Introduce un numero de el 1 al 10: '))\nnombre_fichero = 'tabla-'+str(n)+'.txt'\ntry:\n    f = open(nombre_fichero, 'r')\nexcept FileNotFoundError:\n    print('El archivo no existe')\nelse:\n    print(f.read())\n    f.close()",
+        "detail": "exercices-level-10.exercice-95",
+        "documentation": {}
+    },
+    {
+        "label": "nombre_fichero",
+        "kind": 5,
+        "importPath": "exercices-level-10.exercice-95",
+        "description": "exercices-level-10.exercice-95",
+        "peekOfCode": "nombre_fichero = 'tabla-'+str(n)+'.txt'\ntry:\n    f = open(nombre_fichero, 'r')\nexcept FileNotFoundError:\n    print('El archivo no existe')\nelse:\n    print(f.read())\n    f.close()",
+        "detail": "exercices-level-10.exercice-95",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-96",
+        "description": "exercices-level-10.exercice-96",
+        "peekOfCode": "def numbers(n,m):\n    nombre_fichero = 'tabla-'+str(n)+'.txt'\n    try:\n        with open(nombre_fichero, 'r') as f:\n            lineas = f.readlines()\n            print(f'El contenido de la linea {m} es: {lineas[m-1]}')\n    except FileNotFoundError:\n        print('El fichero no existe')\nnumbers(5,3)",
+        "detail": "exercices-level-10.exercice-96",
+        "documentation": {}
+    },
+    {
+        "label": "contar_palabras",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-97",
+        "description": "exercices-level-10.exercice-97",
+        "peekOfCode": "def contar_palabras(url):\n    try:\n        f = request.urlopen(url)\n    except URLError:\n        return('¡La url ' + url + ' no existe!')\n    else:\n        contenido = f.read()\n        return len(contenido.split())\nprint(contar_palabras('https://www.gutenberg.org/files/2000/2000-0.txt'))\nprint(contar_palabras('https://no-existe.txt'))",
+        "detail": "exercices-level-10.exercice-97",
+        "documentation": {}
+    },
+    {
+        "label": "parsear_pib",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-98",
+        "description": "exercices-level-10.exercice-98",
+        "peekOfCode": "def parsear_pib(url):\n    from urllib import request\n    from urllib.error import URLError\n    try:\n        with request.urlopen(url) as f:\n            datos = f.read().decode('utf-8').split('\\n')\n    except URLError:\n        return('¡La url ' + url + ' no existe!')\n    else:\n        años = datos.pop(0).split('\\t')[1:]",
+        "detail": "exercices-level-10.exercice-98",
+        "documentation": {}
+    },
+    {
+        "label": "pib",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-98",
+        "description": "exercices-level-10.exercice-98",
+        "peekOfCode": "def pib(pibs, pais = \"ES\"):\n    print(\"Año\\tPIB\")\n    for i, j in pibs[pais].items():\n        print(i, '\\t', j)\npais = input('Introduce el código de un país: ')\nprint('Producto Interior Bruto per cápita de', pais)\npib(parsear_pib(\"https://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/sdg_08_10.tsv.gz&unzip=true\"), pais)",
+        "detail": "exercices-level-10.exercice-98",
+        "documentation": {}
+    },
+    {
+        "label": "pais",
+        "kind": 5,
+        "importPath": "exercices-level-10.exercice-98",
+        "description": "exercices-level-10.exercice-98",
+        "peekOfCode": "pais = input('Introduce el código de un país: ')\nprint('Producto Interior Bruto per cápita de', pais)\npib(parsear_pib(\"https://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/sdg_08_10.tsv.gz&unzip=true\"), pais)",
+        "detail": "exercices-level-10.exercice-98",
+        "documentation": {}
+    },
+    {
+        "label": "get_phone",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-99",
+        "description": "exercices-level-10.exercice-99",
+        "peekOfCode": "def get_phone(file, client):\n    try: \n        f = open(file, 'r')\n    except FileNotFoundError:\n        return('¡El fichero ' + file + ' no existe!\\n')\n    else:\n        directory = f.readlines()\n        f.close()\n        directory = dict([tuple(line.split(',')) for line in directory])\n        if client in directory:",
+        "detail": "exercices-level-10.exercice-99",
+        "documentation": {}
+    },
+    {
+        "label": "add_phone",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-99",
+        "description": "exercices-level-10.exercice-99",
+        "peekOfCode": "def add_phone(file, client, telf):\n    try: \n        f = open(file, 'a')\n    except FileNotFoundError:\n        return('¡El fichero ' + file + ' no existe!\\n')\n    else:\n        f.write(client + ',' + telf + '\\n')\n        f.close()\n        return('El teléfono se ha añadido.\\n')\ndef remove_phone(file, client):",
+        "detail": "exercices-level-10.exercice-99",
+        "documentation": {}
+    },
+    {
+        "label": "remove_phone",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-99",
+        "description": "exercices-level-10.exercice-99",
+        "peekOfCode": "def remove_phone(file, client):\n    try: \n        f = open(file, 'r')\n    except FileNotFoundError:\n        return('¡El fichero ' + file + ' no existe!\\n')\n    else:\n        directory = f.readlines()\n        f.close()\n        directory = dict([tuple(line.split(',')) for line in directory])\n        if client in directory:",
+        "detail": "exercices-level-10.exercice-99",
+        "documentation": {}
+    },
+    {
+        "label": "create_directory",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-99",
+        "description": "exercices-level-10.exercice-99",
+        "peekOfCode": "def create_directory(file):\n    import os\n    if os.path.isfile(file):\n        answer = input('El fichero ' + file + ' ya existe. ¿Desea vaciarlo (S/N)? ')\n        if answer == 'N': \n            return 'No se ha creado el fichero porque ya existe.\\n'\n    f = open(file, 'w')\n    f.close()\n    return 'Se ha creado el fichero.\\n'\ndef menu():",
+        "detail": "exercices-level-10.exercice-99",
+        "documentation": {}
+    },
+    {
+        "label": "menu",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-99",
+        "description": "exercices-level-10.exercice-99",
+        "peekOfCode": "def menu():\n    print('Gesión del listín telefónico')\n    print('============================')\n    print('1 - Consultar un teléfono')\n    print('2 - Añadir un teléfono')\n    print('3 - Eliminar un teléfono')\n    print('4 - Crear el listín')\n    print('0 - Terminar')\n    option = input('Introduzca el número de la opción deseada: ')\n    return option",
+        "detail": "exercices-level-10.exercice-99",
+        "documentation": {}
+    },
+    {
+        "label": "directory",
+        "kind": 2,
+        "importPath": "exercices-level-10.exercice-99",
+        "description": "exercices-level-10.exercice-99",
+        "peekOfCode": "def directory():\n    file = 'listin.txt' \n    while True:\n        option = menu()\n        if option == '1':\n            name = input('Introduce el nombre del cliente: ')\n            print(get_phone(file, name))\n        elif option == '2':\n            name = input('Introduce el nombre del cliente: ')\n            telf = input('Introduce el teléfono del cliente: ')",
+        "detail": "exercices-level-10.exercice-99",
+        "documentation": {}
+    },
+    {
+        "label": "vf",
+        "kind": 2,
+        "importPath": "exercices-level-11.exercices-101",
+        "description": "exercices-level-11.exercices-101",
+        "peekOfCode": "def vf(capital, tipo, periodo):\n    for i in range(periodo):\n        print(\"Año\", i, \":\", capital * (1 + tipo / 100) ** (i + 1))\n    return\ndef va(capital, tipo, periodo):\n    for i in range(periodo): \n        print(\"Año\", -i, \":\", capital / (1 + tipo / 100) ** (i + 1))\n    return\ncantidad = float(input(\"Introduce un capital: \"))\ntipo = float(input(\"Introduce un tipo de interés: \"))",
+        "detail": "exercices-level-11.exercices-101",
+        "documentation": {}
+    },
+    {
+        "label": "va",
+        "kind": 2,
+        "importPath": "exercices-level-11.exercices-101",
+        "description": "exercices-level-11.exercices-101",
+        "peekOfCode": "def va(capital, tipo, periodo):\n    for i in range(periodo): \n        print(\"Año\", -i, \":\", capital / (1 + tipo / 100) ** (i + 1))\n    return\ncantidad = float(input(\"Introduce un capital: \"))\ntipo = float(input(\"Introduce un tipo de interés: \"))\naños = int(input(\"Introduce un número de años: \"))\nprint(\"VALOR FUTURO\")\nvf(cantidad, tipo, años)\nprint(\"VALOR ACTUAL\")",
+        "detail": "exercices-level-11.exercices-101",
+        "documentation": {}
+    },
+    {
+        "label": "cantidad",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-101",
+        "description": "exercices-level-11.exercices-101",
+        "peekOfCode": "cantidad = float(input(\"Introduce un capital: \"))\ntipo = float(input(\"Introduce un tipo de interés: \"))\naños = int(input(\"Introduce un número de años: \"))\nprint(\"VALOR FUTURO\")\nvf(cantidad, tipo, años)\nprint(\"VALOR ACTUAL\")\nva(cantidad, tipo, años)",
+        "detail": "exercices-level-11.exercices-101",
+        "documentation": {}
+    },
+    {
+        "label": "tipo",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-101",
+        "description": "exercices-level-11.exercices-101",
+        "peekOfCode": "tipo = float(input(\"Introduce un tipo de interés: \"))\naños = int(input(\"Introduce un número de años: \"))\nprint(\"VALOR FUTURO\")\nvf(cantidad, tipo, años)\nprint(\"VALOR ACTUAL\")\nva(cantidad, tipo, años)",
+        "detail": "exercices-level-11.exercices-101",
+        "documentation": {}
+    },
+    {
+        "label": "años",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-101",
+        "description": "exercices-level-11.exercices-101",
+        "peekOfCode": "años = int(input(\"Introduce un número de años: \"))\nprint(\"VALOR FUTURO\")\nvf(cantidad, tipo, años)\nprint(\"VALOR ACTUAL\")\nva(cantidad, tipo, años)",
+        "detail": "exercices-level-11.exercices-101",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-102",
+        "description": "exercices-level-11.exercices-102",
+        "peekOfCode": "n = int(input('Ingrese un numero impar: '))\nif n % 2 == 0:\n    n += 1\nx = '*'\nfor j in range(1,n+1, 2):\n    print(\"{:^33}\".format(j * x))\nfor k in range(n-2, 1, -2):\n    print(\"{:^33}\".format(k * x))\nprint(\"{:^33}\".format('*'))",
+        "detail": "exercices-level-11.exercices-102",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-102",
+        "description": "exercices-level-11.exercices-102",
+        "peekOfCode": "x = '*'\nfor j in range(1,n+1, 2):\n    print(\"{:^33}\".format(j * x))\nfor k in range(n-2, 1, -2):\n    print(\"{:^33}\".format(k * x))\nprint(\"{:^33}\".format('*'))",
+        "detail": "exercices-level-11.exercices-102",
+        "documentation": {}
+    },
+    {
+        "label": "conversion_hex_bin",
+        "kind": 2,
+        "importPath": "exercices-level-11.exercices-103",
+        "description": "exercices-level-11.exercices-103",
+        "peekOfCode": "def conversion_hex_bin(num_hex):\n    hexbin = {\n            \"0\":\"0000\",\n            \"1\":\"0001\", \n            \"2\":\"0010\", \n            \"3\":\"0011\", \n            \"4\":\"0100\", \n            \"5\":\"0101\", \n            \"6\":\"0110\", \n            \"7\":\"0111\", ",
+        "detail": "exercices-level-11.exercices-103",
+        "documentation": {}
+    },
+    {
+        "label": "conversion_bin_dec",
+        "kind": 2,
+        "importPath": "exercices-level-11.exercices-103",
+        "description": "exercices-level-11.exercices-103",
+        "peekOfCode": "def conversion_bin_dec(num_bin):\n    num_bin = list(num_bin) \n    num_bin.reverse()\n    num_dec = 0 \n    for i in range(len(num_bin)): \n        num_dec += int(num_bin[i]) * 2 ** i \n    return num_dec\ndef maximo_hex(lista_hex):\n    lista_dec = []\n    for i in lista_hex:",
+        "detail": "exercices-level-11.exercices-103",
+        "documentation": {}
+    },
+    {
+        "label": "maximo_hex",
+        "kind": 2,
+        "importPath": "exercices-level-11.exercices-103",
+        "description": "exercices-level-11.exercices-103",
+        "peekOfCode": "def maximo_hex(lista_hex):\n    lista_dec = []\n    for i in lista_hex:\n        lista_dec.append(conversion_bin_dec(conversion_hex_bin(i)))\n    max_dec = max(lista_dec)\n    max_hex = lista_hex[lista_dec.index(max_dec)]\n    return (max_hex, max_dec)\nprint(\"El número hexadecimal AA55 es\", conversion_bin_dec(conversion_hex_bin(\"AA55\")), \"en binario.\")\nhex = [\"AA55\", \"1010\", \"BEBE\", \"0101\", \"0FEA\"] \nprint(maximo_hex(hex))",
+        "detail": "exercices-level-11.exercices-103",
+        "documentation": {}
+    },
+    {
+        "label": "hex",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-103",
+        "description": "exercices-level-11.exercices-103",
+        "peekOfCode": "hex = [\"AA55\", \"1010\", \"BEBE\", \"0101\", \"0FEA\"] \nprint(maximo_hex(hex))",
+        "detail": "exercices-level-11.exercices-103",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 2,
+        "importPath": "exercices-level-11.exercices-104",
+        "description": "exercices-level-11.exercices-104",
+        "peekOfCode": "def media(lista):\n    return lista/len(lista)\ndef varianza(lista):\n    m  = media(lista)\n    xi = 0\n    for i in lista:\n        xi += (xi - m)**2\n    varianza =  xi/(len(lista)-1)\n    return varianza\ndef covarianza(x,y):",
+        "detail": "exercices-level-11.exercices-104",
+        "documentation": {}
+    },
+    {
+        "label": "varianza",
+        "kind": 2,
+        "importPath": "exercices-level-11.exercices-104",
+        "description": "exercices-level-11.exercices-104",
+        "peekOfCode": "def varianza(lista):\n    m  = media(lista)\n    xi = 0\n    for i in lista:\n        xi += (xi - m)**2\n    varianza =  xi/(len(lista)-1)\n    return varianza\ndef covarianza(x,y):\n    mx = media(x)\n    my = media(y)",
+        "detail": "exercices-level-11.exercices-104",
+        "documentation": {}
+    },
+    {
+        "label": "covarianza",
+        "kind": 2,
+        "importPath": "exercices-level-11.exercices-104",
+        "description": "exercices-level-11.exercices-104",
+        "peekOfCode": "def covarianza(x,y):\n    mx = media(x)\n    my = media(y)\n    total = 0\n    for i in range(1,x+1):\n        total += (x[i-1]-mx)*(y[i-1]-my)\n    return (total)/len(x)\ndef coeficientes(x, y):\n    n = len(x)\n    mx = sum(x) / n",
+        "detail": "exercices-level-11.exercices-104",
+        "documentation": {}
+    },
+    {
+        "label": "coeficientes",
+        "kind": 2,
+        "importPath": "exercices-level-11.exercices-104",
+        "description": "exercices-level-11.exercices-104",
+        "peekOfCode": "def coeficientes(x, y):\n    n = len(x)\n    mx = sum(x) / n\n    my = sum(y) / n\n    numerador = sum((x[i] - mx) * (y[i] - my) for i in range(n))\n    denominador = sum((x[i] - mx) ** 2 for i in range(n))\n    b = numerador / denominador\n    a = my - b * mx\n    return a, b",
+        "detail": "exercices-level-11.exercices-104",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-104",
+        "description": "exercices-level-11.exercices-104",
+        "peekOfCode": "x = [3,2,5,7]\ny = [5,6,3,8]\ndef media(lista):\n    return lista/len(lista)\ndef varianza(lista):\n    m  = media(lista)\n    xi = 0\n    for i in lista:\n        xi += (xi - m)**2\n    varianza =  xi/(len(lista)-1)",
+        "detail": "exercices-level-11.exercices-104",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-104",
+        "description": "exercices-level-11.exercices-104",
+        "peekOfCode": "y = [5,6,3,8]\ndef media(lista):\n    return lista/len(lista)\ndef varianza(lista):\n    m  = media(lista)\n    xi = 0\n    for i in lista:\n        xi += (xi - m)**2\n    varianza =  xi/(len(lista)-1)\n    return varianza",
+        "detail": "exercices-level-11.exercices-104",
+        "documentation": {}
+    },
+    {
+        "label": "even_index",
+        "kind": 2,
+        "importPath": "exercices-level-11.exercices-105",
+        "description": "exercices-level-11.exercices-105",
+        "peekOfCode": "def even_index(list):\n    new_list = []\n    for i in range(1,len(list)+1):\n        if i % 2 == 0:\n            new_list.append(i)\n    return new_list\ndef odd_index(list):\n    new_list = []\n    for i in range(1,len(list)+1):\n        if i % 2 != 0:",
+        "detail": "exercices-level-11.exercices-105",
+        "documentation": {}
+    },
+    {
+        "label": "odd_index",
+        "kind": 2,
+        "importPath": "exercices-level-11.exercices-105",
+        "description": "exercices-level-11.exercices-105",
+        "peekOfCode": "def odd_index(list):\n    new_list = []\n    for i in range(1,len(list)+1):\n        if i % 2 != 0:\n            new_list.append(i)\n    return new_list\nprint(f'Odd list is: {odd_index(list_one)}. Even list is: {even_index(list_two)}')",
+        "detail": "exercices-level-11.exercices-105",
+        "documentation": {}
+    },
+    {
+        "label": "list_one",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-105",
+        "description": "exercices-level-11.exercices-105",
+        "peekOfCode": "list_one = [1,2,3,4,5,6,7,8,9,10]\nlist_two = [1,2,3,4,5,6,7,8,9,10]\ndef even_index(list):\n    new_list = []\n    for i in range(1,len(list)+1):\n        if i % 2 == 0:\n            new_list.append(i)\n    return new_list\ndef odd_index(list):\n    new_list = []",
+        "detail": "exercices-level-11.exercices-105",
+        "documentation": {}
+    },
+    {
+        "label": "list_two",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-105",
+        "description": "exercices-level-11.exercices-105",
+        "peekOfCode": "list_two = [1,2,3,4,5,6,7,8,9,10]\ndef even_index(list):\n    new_list = []\n    for i in range(1,len(list)+1):\n        if i % 2 == 0:\n            new_list.append(i)\n    return new_list\ndef odd_index(list):\n    new_list = []\n    for i in range(1,len(list)+1):",
+        "detail": "exercices-level-11.exercices-105",
+        "documentation": {}
+    },
+    {
+        "label": "chars",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-106",
+        "description": "exercices-level-11.exercices-106",
+        "peekOfCode": "chars = s.ascii_lowercase\nword = ''\nfor i in range(1,6):\n    word += r.choice(chars)\nprint(word)",
+        "detail": "exercices-level-11.exercices-106",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-106",
+        "description": "exercices-level-11.exercices-106",
+        "peekOfCode": "word = ''\nfor i in range(1,6):\n    word += r.choice(chars)\nprint(word)",
+        "detail": "exercices-level-11.exercices-106",
+        "documentation": {}
+    },
+    {
+        "label": "lenght",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-107",
+        "description": "exercices-level-11.exercices-107",
+        "peekOfCode": "lenght = 10\nchars = s.printable\nuppercase = s.ascii_uppercase\ndigits = s.digits\nsymbols = s.punctuation\nword = ''\nfor i in range(1,lenght+1):\n    for j in range(1,3):\n        word += r.choice(uppercase)\n    for k in range(1,2):",
+        "detail": "exercices-level-11.exercices-107",
+        "documentation": {}
+    },
+    {
+        "label": "chars",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-107",
+        "description": "exercices-level-11.exercices-107",
+        "peekOfCode": "chars = s.printable\nuppercase = s.ascii_uppercase\ndigits = s.digits\nsymbols = s.punctuation\nword = ''\nfor i in range(1,lenght+1):\n    for j in range(1,3):\n        word += r.choice(uppercase)\n    for k in range(1,2):\n        word += r.choice(symbols)",
+        "detail": "exercices-level-11.exercices-107",
+        "documentation": {}
+    },
+    {
+        "label": "uppercase",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-107",
+        "description": "exercices-level-11.exercices-107",
+        "peekOfCode": "uppercase = s.ascii_uppercase\ndigits = s.digits\nsymbols = s.punctuation\nword = ''\nfor i in range(1,lenght+1):\n    for j in range(1,3):\n        word += r.choice(uppercase)\n    for k in range(1,2):\n        word += r.choice(symbols)\n    word += r.choice(chars)",
+        "detail": "exercices-level-11.exercices-107",
+        "documentation": {}
+    },
+    {
+        "label": "digits",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-107",
+        "description": "exercices-level-11.exercices-107",
+        "peekOfCode": "digits = s.digits\nsymbols = s.punctuation\nword = ''\nfor i in range(1,lenght+1):\n    for j in range(1,3):\n        word += r.choice(uppercase)\n    for k in range(1,2):\n        word += r.choice(symbols)\n    word += r.choice(chars)\nprint(len(word))",
+        "detail": "exercices-level-11.exercices-107",
+        "documentation": {}
+    },
+    {
+        "label": "symbols",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-107",
+        "description": "exercices-level-11.exercices-107",
+        "peekOfCode": "symbols = s.punctuation\nword = ''\nfor i in range(1,lenght+1):\n    for j in range(1,3):\n        word += r.choice(uppercase)\n    for k in range(1,2):\n        word += r.choice(symbols)\n    word += r.choice(chars)\nprint(len(word))",
+        "detail": "exercices-level-11.exercices-107",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-107",
+        "description": "exercices-level-11.exercices-107",
+        "peekOfCode": "word = ''\nfor i in range(1,lenght+1):\n    for j in range(1,3):\n        word += r.choice(uppercase)\n    for k in range(1,2):\n        word += r.choice(symbols)\n    word += r.choice(chars)\nprint(len(word))",
+        "detail": "exercices-level-11.exercices-107",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-108",
+        "description": "exercices-level-11.exercices-108",
+        "peekOfCode": "l = []\nwhile True:\n    s = input('Ingrese una frase o nada para continuar: ')\n    if s:\n        l.append(s)\n    else:\n        break\nfor i in l:\n    print(i.upper())",
+        "detail": "exercices-level-11.exercices-108",
+        "documentation": {}
+    },
+    {
+        "label": "palabras",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-109",
+        "description": "exercices-level-11.exercices-109",
+        "peekOfCode": "palabras = {\n    \"Azuzaba\": \"Incitar\",\n    \"Calamidad\": \"desgracia\",\n    \"Contenciosas\": \"Conflictivo\",\n    \"Despecho\": \"rencor\",\n    \"Devastaba\": \"destrozar\",\n    \"Dilaciones\": \"demora\",\n    \"Engullir\": \"Devorar\",\n    \"Etereo\": \"Sutil\",\n    \"Exasperar\": \"Irritar\",",
+        "detail": "exercices-level-11.exercices-109",
+        "documentation": {}
+    },
+    {
+        "label": "usadas",
+        "kind": 5,
+        "importPath": "exercices-level-11.exercices-109",
+        "description": "exercices-level-11.exercices-109",
+        "peekOfCode": "usadas = set()\nwhile True:\n    if len(usadas) == len(palabras):\n        print('Terminaste')\n        break\n    palabra = r.choice(list(set(palabras.keys()) - usadas))\n    usadas.add(palabra)  \n    user_value = input(f'Ingrese el sinonimo de \"{palabra}\": ')\n    if user_value.lower() == palabras[palabra].lower():\n        print('Has acertado')",
+        "detail": "exercices-level-11.exercices-109",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-12",
+        "description": "exercices-level-2.exercice-12",
+        "peekOfCode": "x = 'Hola mundo'\nprint(x)",
+        "detail": "exercices-level-2.exercice-12",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-13",
+        "description": "exercices-level-2.exercice-13",
+        "peekOfCode": "n = str(input('Ingrese su nombre: '))\nprint(f'Hola {n}')",
+        "detail": "exercices-level-2.exercice-13",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-14",
+        "description": "exercices-level-2.exercice-14",
+        "peekOfCode": "n = input('Ingrese sus horas trabajadas y su coste por hora separado por una coma: ')\nn2 = n.split(\",\")\nprint(f'Tu paga es {int(n2[0]) * int(n2[1])}$')",
+        "detail": "exercices-level-2.exercice-14",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-14",
+        "description": "exercices-level-2.exercice-14",
+        "peekOfCode": "n2 = n.split(\",\")\nprint(f'Tu paga es {int(n2[0]) * int(n2[1])}$')",
+        "detail": "exercices-level-2.exercice-14",
+        "documentation": {}
+    },
+    {
+        "label": "peso",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-15",
+        "description": "exercices-level-2.exercice-15",
+        "peekOfCode": "peso = int(input('Ingrese su peso en kg: '))\nestatura = float(input('Ingrese su estatura en metros: '))\nimc = round(peso / (estatura ** 2), 2)\nprint(f'Tu índice de masa corporal es {imc}')",
+        "detail": "exercices-level-2.exercice-15",
+        "documentation": {}
+    },
+    {
+        "label": "estatura",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-15",
+        "description": "exercices-level-2.exercice-15",
+        "peekOfCode": "estatura = float(input('Ingrese su estatura en metros: '))\nimc = round(peso / (estatura ** 2), 2)\nprint(f'Tu índice de masa corporal es {imc}')",
+        "detail": "exercices-level-2.exercice-15",
+        "documentation": {}
+    },
+    {
+        "label": "imc",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-15",
+        "description": "exercices-level-2.exercice-15",
+        "peekOfCode": "imc = round(peso / (estatura ** 2), 2)\nprint(f'Tu índice de masa corporal es {imc}')",
+        "detail": "exercices-level-2.exercice-15",
+        "documentation": {}
+    },
+    {
+        "label": "inputs",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-16",
+        "description": "exercices-level-2.exercice-16",
+        "peekOfCode": "inputs = input('Ingrese dos numeros enteros: ')\nnumeros = inputs.split(\" \")\nnum1 = int(numeros[0])\nnum2 = int(numeros[1])\ncociente = num1 // num2\nresto = num1 % num2\nprint(f'El resto de la division de los numeros es {resto} y el cociente es {cociente}')",
+        "detail": "exercices-level-2.exercice-16",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-16",
+        "description": "exercices-level-2.exercice-16",
+        "peekOfCode": "numeros = inputs.split(\" \")\nnum1 = int(numeros[0])\nnum2 = int(numeros[1])\ncociente = num1 // num2\nresto = num1 % num2\nprint(f'El resto de la division de los numeros es {resto} y el cociente es {cociente}')",
+        "detail": "exercices-level-2.exercice-16",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-16",
+        "description": "exercices-level-2.exercice-16",
+        "peekOfCode": "num1 = int(numeros[0])\nnum2 = int(numeros[1])\ncociente = num1 // num2\nresto = num1 % num2\nprint(f'El resto de la division de los numeros es {resto} y el cociente es {cociente}')",
+        "detail": "exercices-level-2.exercice-16",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-16",
+        "description": "exercices-level-2.exercice-16",
+        "peekOfCode": "num2 = int(numeros[1])\ncociente = num1 // num2\nresto = num1 % num2\nprint(f'El resto de la division de los numeros es {resto} y el cociente es {cociente}')",
+        "detail": "exercices-level-2.exercice-16",
+        "documentation": {}
+    },
+    {
+        "label": "cociente",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-16",
+        "description": "exercices-level-2.exercice-16",
+        "peekOfCode": "cociente = num1 // num2\nresto = num1 % num2\nprint(f'El resto de la division de los numeros es {resto} y el cociente es {cociente}')",
+        "detail": "exercices-level-2.exercice-16",
+        "documentation": {}
+    },
+    {
+        "label": "resto",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-16",
+        "description": "exercices-level-2.exercice-16",
+        "peekOfCode": "resto = num1 % num2\nprint(f'El resto de la division de los numeros es {resto} y el cociente es {cociente}')",
+        "detail": "exercices-level-2.exercice-16",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-17",
+        "description": "exercices-level-2.exercice-17",
+        "peekOfCode": "n = input('Que cantidad desea invertir, el interes anual y a cuantos años: ')\nn = n.split(' ')\nprint(f'Al pasar {int(n[2])} años, sus {int(n[0])}$ invertidos se convertiran en {(int(n[0]) * (float(n[1])/100) * int(n[2])) + int(n[0])}')",
+        "detail": "exercices-level-2.exercice-17",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-17",
+        "description": "exercices-level-2.exercice-17",
+        "peekOfCode": "n = n.split(' ')\nprint(f'Al pasar {int(n[2])} años, sus {int(n[0])}$ invertidos se convertiran en {(int(n[0]) * (float(n[1])/100) * int(n[2])) + int(n[0])}')",
+        "detail": "exercices-level-2.exercice-17",
+        "documentation": {}
+    },
+    {
+        "label": "Pp",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-18",
+        "description": "exercices-level-2.exercice-18",
+        "peekOfCode": "Pp = 112\nPm = 75\niv = input('Cuantos payasos y muñecas se vendieron: ')\nx = iv.split(\" \")\npayasos = int(x[0])\nmuñecas = int(x[1])\npt = ((payasos * 112)/1000) + ((muñecas * Pm)/1000)\nprint(f'El peso total del pedido es: {round(pt, 2)}kg')",
+        "detail": "exercices-level-2.exercice-18",
+        "documentation": {}
+    },
+    {
+        "label": "Pm",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-18",
+        "description": "exercices-level-2.exercice-18",
+        "peekOfCode": "Pm = 75\niv = input('Cuantos payasos y muñecas se vendieron: ')\nx = iv.split(\" \")\npayasos = int(x[0])\nmuñecas = int(x[1])\npt = ((payasos * 112)/1000) + ((muñecas * Pm)/1000)\nprint(f'El peso total del pedido es: {round(pt, 2)}kg')",
+        "detail": "exercices-level-2.exercice-18",
+        "documentation": {}
+    },
+    {
+        "label": "iv",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-18",
+        "description": "exercices-level-2.exercice-18",
+        "peekOfCode": "iv = input('Cuantos payasos y muñecas se vendieron: ')\nx = iv.split(\" \")\npayasos = int(x[0])\nmuñecas = int(x[1])\npt = ((payasos * 112)/1000) + ((muñecas * Pm)/1000)\nprint(f'El peso total del pedido es: {round(pt, 2)}kg')",
+        "detail": "exercices-level-2.exercice-18",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-18",
+        "description": "exercices-level-2.exercice-18",
+        "peekOfCode": "x = iv.split(\" \")\npayasos = int(x[0])\nmuñecas = int(x[1])\npt = ((payasos * 112)/1000) + ((muñecas * Pm)/1000)\nprint(f'El peso total del pedido es: {round(pt, 2)}kg')",
+        "detail": "exercices-level-2.exercice-18",
+        "documentation": {}
+    },
+    {
+        "label": "payasos",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-18",
+        "description": "exercices-level-2.exercice-18",
+        "peekOfCode": "payasos = int(x[0])\nmuñecas = int(x[1])\npt = ((payasos * 112)/1000) + ((muñecas * Pm)/1000)\nprint(f'El peso total del pedido es: {round(pt, 2)}kg')",
+        "detail": "exercices-level-2.exercice-18",
+        "documentation": {}
+    },
+    {
+        "label": "muñecas",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-18",
+        "description": "exercices-level-2.exercice-18",
+        "peekOfCode": "muñecas = int(x[1])\npt = ((payasos * 112)/1000) + ((muñecas * Pm)/1000)\nprint(f'El peso total del pedido es: {round(pt, 2)}kg')",
+        "detail": "exercices-level-2.exercice-18",
+        "documentation": {}
+    },
+    {
+        "label": "pt",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-18",
+        "description": "exercices-level-2.exercice-18",
+        "peekOfCode": "pt = ((payasos * 112)/1000) + ((muñecas * Pm)/1000)\nprint(f'El peso total del pedido es: {round(pt, 2)}kg')",
+        "detail": "exercices-level-2.exercice-18",
+        "documentation": {}
+    },
+    {
+        "label": "dinero",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-19",
+        "description": "exercices-level-2.exercice-19",
+        "peekOfCode": "dinero = float(input('Ingrese el dinero de su cuenta de ahorro: '))\ninteres = 0.04\nfor i in range(1, 4):\n    dinero = (dinero * interes) + dinero\n    print(f'Despues del año numero {i} tendras {dinero}$')",
+        "detail": "exercices-level-2.exercice-19",
+        "documentation": {}
+    },
+    {
+        "label": "interes",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-19",
+        "description": "exercices-level-2.exercice-19",
+        "peekOfCode": "interes = 0.04\nfor i in range(1, 4):\n    dinero = (dinero * interes) + dinero\n    print(f'Despues del año numero {i} tendras {dinero}$')",
+        "detail": "exercices-level-2.exercice-19",
+        "documentation": {}
+    },
+    {
+        "label": "precio_pan",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-20",
+        "description": "exercices-level-2.exercice-20",
+        "peekOfCode": "precio_pan = 3.49\ndescuento = 0.6\npanes_del_dia = r.randint(1,11)\npanes_del_otro_dia = r.randint(1,11)\nprint(f'Usted lleva {panes_del_dia} panes del dia y {panes_del_otro_dia} panes que no son del dia, tiene un descuento de {panes_del_otro_dia * descuento}$ por llevar panes que no son del dia, el precio total es de {(panes_del_otro_dia * descuento) + panes_del_dia}')",
+        "detail": "exercices-level-2.exercice-20",
+        "documentation": {}
+    },
+    {
+        "label": "descuento",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-20",
+        "description": "exercices-level-2.exercice-20",
+        "peekOfCode": "descuento = 0.6\npanes_del_dia = r.randint(1,11)\npanes_del_otro_dia = r.randint(1,11)\nprint(f'Usted lleva {panes_del_dia} panes del dia y {panes_del_otro_dia} panes que no son del dia, tiene un descuento de {panes_del_otro_dia * descuento}$ por llevar panes que no son del dia, el precio total es de {(panes_del_otro_dia * descuento) + panes_del_dia}')",
+        "detail": "exercices-level-2.exercice-20",
+        "documentation": {}
+    },
+    {
+        "label": "panes_del_dia",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-20",
+        "description": "exercices-level-2.exercice-20",
+        "peekOfCode": "panes_del_dia = r.randint(1,11)\npanes_del_otro_dia = r.randint(1,11)\nprint(f'Usted lleva {panes_del_dia} panes del dia y {panes_del_otro_dia} panes que no son del dia, tiene un descuento de {panes_del_otro_dia * descuento}$ por llevar panes que no son del dia, el precio total es de {(panes_del_otro_dia * descuento) + panes_del_dia}')",
+        "detail": "exercices-level-2.exercice-20",
+        "documentation": {}
+    },
+    {
+        "label": "panes_del_otro_dia",
+        "kind": 5,
+        "importPath": "exercices-level-2.exercice-20",
+        "description": "exercices-level-2.exercice-20",
+        "peekOfCode": "panes_del_otro_dia = r.randint(1,11)\nprint(f'Usted lleva {panes_del_dia} panes del dia y {panes_del_otro_dia} panes que no son del dia, tiene un descuento de {panes_del_otro_dia * descuento}$ por llevar panes que no son del dia, el precio total es de {(panes_del_otro_dia * descuento) + panes_del_dia}')",
+        "detail": "exercices-level-2.exercice-20",
+        "documentation": {}
+    },
+    {
+        "label": "input",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-21",
+        "description": "exercices-level-3.exercice-21",
+        "peekOfCode": "input = input('Ingrese su nombre y un numero: ')\nn = input.split(',')\nfor i in range(int(n[1])):\n    print(n[0])",
+        "detail": "exercices-level-3.exercice-21",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-21",
+        "description": "exercices-level-3.exercice-21",
+        "peekOfCode": "n = input.split(',')\nfor i in range(int(n[1])):\n    print(n[0])",
+        "detail": "exercices-level-3.exercice-21",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-22",
+        "description": "exercices-level-3.exercice-22",
+        "peekOfCode": "nombre = input('Ingrese su nombre: ')\nprint(f'Tu nombre en minusculas es {nombre.lower()}, en mayusculas {nombre.upper()}, con las primeras letars en mayusculas {nombre.title()}')",
+        "detail": "exercices-level-3.exercice-22",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-23",
+        "description": "exercices-level-3.exercice-23",
+        "peekOfCode": "nombre = str(input(\"Ingrese su nombre: \"))\nprint(f'Tu nombre es {nombre.upper()} tiene {len(nombre)} letras')",
+        "detail": "exercices-level-3.exercice-23",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-24",
+        "description": "exercices-level-3.exercice-24",
+        "peekOfCode": "numero = input('Ingrese su numero de telefono con prefijo y extension (formato +34-913724710-56): ')\nprint(numero.replace('+34-','').replace('-','').replace('-',''))",
+        "detail": "exercices-level-3.exercice-24",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-25",
+        "description": "exercices-level-3.exercice-25",
+        "peekOfCode": "frase = input('Ingrese una frase caxondi: ')\nprint(frase[::-1])",
+        "detail": "exercices-level-3.exercice-25",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-26",
+        "description": "exercices-level-3.exercice-26",
+        "peekOfCode": "frase = input('ingrese una frase: ')\nvocal = input('ingrese una vocal: ')\nfrase = frase.replace(vocal, vocal.upper())\nprint(frase)",
+        "detail": "exercices-level-3.exercice-26",
+        "documentation": {}
+    },
+    {
+        "label": "vocal",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-26",
+        "description": "exercices-level-3.exercice-26",
+        "peekOfCode": "vocal = input('ingrese una vocal: ')\nfrase = frase.replace(vocal, vocal.upper())\nprint(frase)",
+        "detail": "exercices-level-3.exercice-26",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-26",
+        "description": "exercices-level-3.exercice-26",
+        "peekOfCode": "frase = frase.replace(vocal, vocal.upper())\nprint(frase)",
+        "detail": "exercices-level-3.exercice-26",
+        "documentation": {}
+    },
+    {
+        "label": "correo",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-27",
+        "description": "exercices-level-3.exercice-27",
+        "peekOfCode": "correo = input('ingrese su correo: ')\nnombre = correo.split('@')[0]\nprint(nombre + '@ceu.es')",
+        "detail": "exercices-level-3.exercice-27",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-27",
+        "description": "exercices-level-3.exercice-27",
+        "peekOfCode": "nombre = correo.split('@')[0]\nprint(nombre + '@ceu.es')",
+        "detail": "exercices-level-3.exercice-27",
+        "documentation": {}
+    },
+    {
+        "label": "precio",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-28",
+        "description": "exercices-level-3.exercice-28",
+        "peekOfCode": "precio = input('Ingrese el precio de un producto en euros: ')\nprecio = len(precio.split(\".\")[1])\nprint(precio)",
+        "detail": "exercices-level-3.exercice-28",
+        "documentation": {}
+    },
+    {
+        "label": "precio",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-28",
+        "description": "exercices-level-3.exercice-28",
+        "peekOfCode": "precio = len(precio.split(\".\")[1])\nprint(precio)",
+        "detail": "exercices-level-3.exercice-28",
+        "documentation": {}
+    },
+    {
+        "label": "fecha",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-29",
+        "description": "exercices-level-3.exercice-29",
+        "peekOfCode": "fecha = input('Introduzca su fecha de nacimiento e formato (dd/mm/aaaa): ')\nfecha = fecha.split('/')\nmeses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']\nprint(f'Naciste el dia {fecha[0]}, de {meses[int(fecha[1])-1]}, del {fecha[2]}')",
+        "detail": "exercices-level-3.exercice-29",
+        "documentation": {}
+    },
+    {
+        "label": "fecha",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-29",
+        "description": "exercices-level-3.exercice-29",
+        "peekOfCode": "fecha = fecha.split('/')\nmeses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']\nprint(f'Naciste el dia {fecha[0]}, de {meses[int(fecha[1])-1]}, del {fecha[2]}')",
+        "detail": "exercices-level-3.exercice-29",
+        "documentation": {}
+    },
+    {
+        "label": "meses",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-29",
+        "description": "exercices-level-3.exercice-29",
+        "peekOfCode": "meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']\nprint(f'Naciste el dia {fecha[0]}, de {meses[int(fecha[1])-1]}, del {fecha[2]}')",
+        "detail": "exercices-level-3.exercice-29",
+        "documentation": {}
+    },
+    {
+        "label": "productos",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-30",
+        "description": "exercices-level-3.exercice-30",
+        "peekOfCode": "productos = input('Ingrese todos los productos de su lista de comrpas separados por una coma: ')\nproductos = productos.split(\",\")\nfor producto in productos:\n    print(producto)",
+        "detail": "exercices-level-3.exercice-30",
+        "documentation": {}
+    },
+    {
+        "label": "productos",
+        "kind": 5,
+        "importPath": "exercices-level-3.exercice-30",
+        "description": "exercices-level-3.exercice-30",
+        "peekOfCode": "productos = productos.split(\",\")\nfor producto in productos:\n    print(producto)",
+        "detail": "exercices-level-3.exercice-30",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-31",
+        "description": "exercices-level-4.exercice-31",
+        "peekOfCode": "nombre = input('Ingrese el nombre del producto: ')\nprecio = input('Ingrese el precio del producto: ')\nunidades = input('Ingrese cuantas unidades lleva del producto: ')",
+        "detail": "exercices-level-4.exercice-31",
+        "documentation": {}
+    },
+    {
+        "label": "precio",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-31",
+        "description": "exercices-level-4.exercice-31",
+        "peekOfCode": "precio = input('Ingrese el precio del producto: ')\nunidades = input('Ingrese cuantas unidades lleva del producto: ')",
+        "detail": "exercices-level-4.exercice-31",
+        "documentation": {}
+    },
+    {
+        "label": "unidades",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-31",
+        "description": "exercices-level-4.exercice-31",
+        "peekOfCode": "unidades = input('Ingrese cuantas unidades lleva del producto: ')",
+        "detail": "exercices-level-4.exercice-31",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-32",
+        "description": "exercices-level-4.exercice-32",
+        "peekOfCode": "e = int(input('Ingrese su edad'))\nif e >= 18:\n    print('Es mayor de edad')\nelse:\n    print('Es menor de edd')",
+        "detail": "exercices-level-4.exercice-32",
+        "documentation": {}
+    },
+    {
+        "label": "contraseña_correcta",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-33",
+        "description": "exercices-level-4.exercice-33",
+        "peekOfCode": "contraseña_correcta = 'raiviestahermoso'\ncontraseña_usuario = input('Ingrese una contraseña: ')\nif contraseña_correcta.lower() == contraseña_usuario.lower():\n    print('La contraseña es correcta')\nelse:\n    print('La contraseña es incorrecta')",
+        "detail": "exercices-level-4.exercice-33",
+        "documentation": {}
+    },
+    {
+        "label": "contraseña_usuario",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-33",
+        "description": "exercices-level-4.exercice-33",
+        "peekOfCode": "contraseña_usuario = input('Ingrese una contraseña: ')\nif contraseña_correcta.lower() == contraseña_usuario.lower():\n    print('La contraseña es correcta')\nelse:\n    print('La contraseña es incorrecta')",
+        "detail": "exercices-level-4.exercice-33",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-34",
+        "description": "exercices-level-4.exercice-34",
+        "peekOfCode": "numeros = input('Ingrese dos numeros separados por una coma: ')\nn1 = numeros.split(\",\")[0]\nn2 = numeros.split(\",\")[1]\nif n2 == 0:\n    print('No se puede dividir entre 0')\nelse:\n    print(n1 / n2)",
+        "detail": "exercices-level-4.exercice-34",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-34",
+        "description": "exercices-level-4.exercice-34",
+        "peekOfCode": "n1 = numeros.split(\",\")[0]\nn2 = numeros.split(\",\")[1]\nif n2 == 0:\n    print('No se puede dividir entre 0')\nelse:\n    print(n1 / n2)",
+        "detail": "exercices-level-4.exercice-34",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-34",
+        "description": "exercices-level-4.exercice-34",
+        "peekOfCode": "n2 = numeros.split(\",\")[1]\nif n2 == 0:\n    print('No se puede dividir entre 0')\nelse:\n    print(n1 / n2)",
+        "detail": "exercices-level-4.exercice-34",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-35",
+        "description": "exercices-level-4.exercice-35",
+        "peekOfCode": "n = int(input('Ingrese un numero: '))\nif n % 2 == 0:\n    print('es par')\nelse:\n    print('es impar')",
+        "detail": "exercices-level-4.exercice-35",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-36",
+        "description": "exercices-level-4.exercice-36",
+        "peekOfCode": "data = input('ingrese su edad y sus ingresos separados por una coma: ')\nedad = int(data.split(',')[0])\ningresos = int(data.split(',')[1])\nif edad >= 16 and ingresos >= 1000:\n    print('debes tributar tus impuestos')\nelse:\n    print('no debes tributar tus impuestos')",
+        "detail": "exercices-level-4.exercice-36",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-36",
+        "description": "exercices-level-4.exercice-36",
+        "peekOfCode": "edad = int(data.split(',')[0])\ningresos = int(data.split(',')[1])\nif edad >= 16 and ingresos >= 1000:\n    print('debes tributar tus impuestos')\nelse:\n    print('no debes tributar tus impuestos')",
+        "detail": "exercices-level-4.exercice-36",
+        "documentation": {}
+    },
+    {
+        "label": "ingresos",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-36",
+        "description": "exercices-level-4.exercice-36",
+        "peekOfCode": "ingresos = int(data.split(',')[1])\nif edad >= 16 and ingresos >= 1000:\n    print('debes tributar tus impuestos')\nelse:\n    print('no debes tributar tus impuestos')",
+        "detail": "exercices-level-4.exercice-36",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-37",
+        "description": "exercices-level-4.exercice-37",
+        "peekOfCode": "name = input(\"Como te llamas?: \")\ngender = input(\"Cual es tu sexo (M o H)?: \")\nif (gender == \"M\" and name.lower() < 'm') or (gender == \"H\" and name.lower() > 'n'):\n    group = \"A\"\nelse:\n    group = \"B\"\nprint(\"Tu grupo es \" + group)",
+        "detail": "exercices-level-4.exercice-37",
+        "documentation": {}
+    },
+    {
+        "label": "gender",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-37",
+        "description": "exercices-level-4.exercice-37",
+        "peekOfCode": "gender = input(\"Cual es tu sexo (M o H)?: \")\nif (gender == \"M\" and name.lower() < 'm') or (gender == \"H\" and name.lower() > 'n'):\n    group = \"A\"\nelse:\n    group = \"B\"\nprint(\"Tu grupo es \" + group)",
+        "detail": "exercices-level-4.exercice-37",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-38",
+        "description": "exercices-level-4.exercice-38",
+        "peekOfCode": "edad = int(input('Ingrese su edad: '))\nif edad > 18:\n    print('Debes pagar 10$')\nelif edad > 4 and edad < 18:\n    print('Debes pagar 5$')\nelif edad < 4:\n    print('Pasas gratis')",
+        "detail": "exercices-level-4.exercice-38",
+        "documentation": {}
+    },
+    {
+        "label": "vegetariana",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-39",
+        "description": "exercices-level-4.exercice-39",
+        "peekOfCode": "vegetariana = ['Pimiento', 'Tofu']\nno_vegetariana = ['Peperoni', 'Jamón', 'Salmón']\nquery = input('Que tipo de pizza quiere? (Vegetariana/No Vegetariana): ')\nif query.lower() == 'vegetariana':\n    print('Los ingredientes extra de su pizza pussy son:')\n    for i in vegetariana:\n        print(i)\nelif query.lower() == 'no vegetariana':\n    print('Los ingredientes de su pizza son:')\n    for i in no_vegetariana:",
+        "detail": "exercices-level-4.exercice-39",
+        "documentation": {}
+    },
+    {
+        "label": "no_vegetariana",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-39",
+        "description": "exercices-level-4.exercice-39",
+        "peekOfCode": "no_vegetariana = ['Peperoni', 'Jamón', 'Salmón']\nquery = input('Que tipo de pizza quiere? (Vegetariana/No Vegetariana): ')\nif query.lower() == 'vegetariana':\n    print('Los ingredientes extra de su pizza pussy son:')\n    for i in vegetariana:\n        print(i)\nelif query.lower() == 'no vegetariana':\n    print('Los ingredientes de su pizza son:')\n    for i in no_vegetariana:\n        print(i)",
+        "detail": "exercices-level-4.exercice-39",
+        "documentation": {}
+    },
+    {
+        "label": "query",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-39",
+        "description": "exercices-level-4.exercice-39",
+        "peekOfCode": "query = input('Que tipo de pizza quiere? (Vegetariana/No Vegetariana): ')\nif query.lower() == 'vegetariana':\n    print('Los ingredientes extra de su pizza pussy son:')\n    for i in vegetariana:\n        print(i)\nelif query.lower() == 'no vegetariana':\n    print('Los ingredientes de su pizza son:')\n    for i in no_vegetariana:\n        print(i)\nelse:",
+        "detail": "exercices-level-4.exercice-39",
+        "documentation": {}
+    },
+    {
+        "label": "extra",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-39",
+        "description": "exercices-level-4.exercice-39",
+        "peekOfCode": "extra = input('Eliga un ingrediente extra ademas de la mozzarela y los tomates que estan en todas las pizzas: ')\nprint(f'Su pizza es {query.capitalize()}, y su ingrediente extra es {extra}')",
+        "detail": "exercices-level-4.exercice-39",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "exercices-level-4.exercice-40",
+        "description": "exercices-level-4.exercice-40",
+        "peekOfCode": "nombre = input('Ingrese su nombre: ')\nfor i in range(1,11):\n    print(f'{i} {nombre}')",
+        "detail": "exercices-level-4.exercice-40",
+        "documentation": {}
+    },
+    {
+        "label": "año_actual",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-41",
+        "description": "exercices-level-5.exercice-41",
+        "peekOfCode": "año_actual = 2024\nedad = int(input(\"Ingrese su edad: \"))\nfor i in range(1, edad+1):\n    print(año_actual - i)",
+        "detail": "exercices-level-5.exercice-41",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-41",
+        "description": "exercices-level-5.exercice-41",
+        "peekOfCode": "edad = int(input(\"Ingrese su edad: \"))\nfor i in range(1, edad+1):\n    print(año_actual - i)",
+        "detail": "exercices-level-5.exercice-41",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-42",
+        "description": "exercices-level-5.exercice-42",
+        "peekOfCode": "numero = int(input('Ingrese un numero positivo: '))\nimpares = []\nfor i in range(1,numero+1):\n    if i % 2 != 0:\n        impares.append(i)\nresultado = ', '.join(map(str, impares))\nprint(resultado)",
+        "detail": "exercices-level-5.exercice-42",
+        "documentation": {}
+    },
+    {
+        "label": "impares",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-42",
+        "description": "exercices-level-5.exercice-42",
+        "peekOfCode": "impares = []\nfor i in range(1,numero+1):\n    if i % 2 != 0:\n        impares.append(i)\nresultado = ', '.join(map(str, impares))\nprint(resultado)",
+        "detail": "exercices-level-5.exercice-42",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-42",
+        "description": "exercices-level-5.exercice-42",
+        "peekOfCode": "resultado = ', '.join(map(str, impares))\nprint(resultado)",
+        "detail": "exercices-level-5.exercice-42",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-43",
+        "description": "exercices-level-5.exercice-43",
+        "peekOfCode": "numero = int(input('Ingrese un numero positivo: '))\nprint\nfor i in range(numero+1):\n    print(numero - i)",
+        "detail": "exercices-level-5.exercice-43",
+        "documentation": {}
+    },
+    {
+        "label": "cantidad",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-44",
+        "description": "exercices-level-5.exercice-44",
+        "peekOfCode": "cantidad = float(input('Ingrese la cantidad a invertir: '))\ninteres = float(input('Ingrese el interes anual: '))\naños = int(input('Ingrese el número de años: '))\nfor i in range(1, años+1):\n    cantidad = (cantidad * interes) + cantidad\n    print(f'El capital obtenido en el año {i} es: {round(cantidad, 2)}$')",
+        "detail": "exercices-level-5.exercice-44",
+        "documentation": {}
+    },
+    {
+        "label": "interes",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-44",
+        "description": "exercices-level-5.exercice-44",
+        "peekOfCode": "interes = float(input('Ingrese el interes anual: '))\naños = int(input('Ingrese el número de años: '))\nfor i in range(1, años+1):\n    cantidad = (cantidad * interes) + cantidad\n    print(f'El capital obtenido en el año {i} es: {round(cantidad, 2)}$')",
+        "detail": "exercices-level-5.exercice-44",
+        "documentation": {}
+    },
+    {
+        "label": "años",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-44",
+        "description": "exercices-level-5.exercice-44",
+        "peekOfCode": "años = int(input('Ingrese el número de años: '))\nfor i in range(1, años+1):\n    cantidad = (cantidad * interes) + cantidad\n    print(f'El capital obtenido en el año {i} es: {round(cantidad, 2)}$')",
+        "detail": "exercices-level-5.exercice-44",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-45",
+        "description": "exercices-level-5.exercice-45",
+        "peekOfCode": "numero = int(input('Ingrese un numero entero positivo: '))\nfor i in range(1, numero+1):\n    print('*' * i)",
+        "detail": "exercices-level-5.exercice-45",
+        "documentation": {}
+    },
+    {
+        "label": "tablas",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-46",
+        "description": "exercices-level-5.exercice-46",
+        "peekOfCode": "tablas = [1,2,3,4,5,6,6,7,8,9,10]\nfor i in tablas:\n    for n in tablas:\n        print(f'{i} x {n} = {i*n}', end='\\t')\n    print()",
+        "detail": "exercices-level-5.exercice-46",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-47",
+        "description": "exercices-level-5.exercice-47",
+        "peekOfCode": "n = int(input(\"Introduce la altura del triángulo (entero positivo): \"))\nfor i in range(1, n+1, 2):\n    for j in range(i, 0, -2):\n        print(j, end=\" \")\n    print(\"\")",
+        "detail": "exercices-level-5.exercice-47",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-48",
+        "description": "exercices-level-5.exercice-48",
+        "peekOfCode": "key = 2008\ncontraseña = 0\nwhile contraseña != key:\n    contraseña = int(input(\"Ingrese la contraseña: \"))\n    if contraseña != key:\n        print('Contraseña incorrecta')\nprint('Acertaste')",
+        "detail": "exercices-level-5.exercice-48",
+        "documentation": {}
+    },
+    {
+        "label": "contraseña",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-48",
+        "description": "exercices-level-5.exercice-48",
+        "peekOfCode": "contraseña = 0\nwhile contraseña != key:\n    contraseña = int(input(\"Ingrese la contraseña: \"))\n    if contraseña != key:\n        print('Contraseña incorrecta')\nprint('Acertaste')",
+        "detail": "exercices-level-5.exercice-48",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-49",
+        "description": "exercices-level-5.exercice-49",
+        "peekOfCode": "n = int(input(\"Introduce un número entero positivo mayor que 2: \"))\nfor i in range(2, n):\n    if n % i == 0:\n        break\nif (i + 1)  == n:\n    print(str(n) + \" es primo\")\nelse: \n    print(str(n) + \" no es primo\")",
+        "detail": "exercices-level-5.exercice-49",
+        "documentation": {}
+    },
+    {
+        "label": "palabra",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-50",
+        "description": "exercices-level-5.exercice-50",
+        "peekOfCode": "palabra = input('Ingrese una palabra: ')\npalabra = palabra[::-1]\nfor char in palabra:\n        print(char)",
+        "detail": "exercices-level-5.exercice-50",
+        "documentation": {}
+    },
+    {
+        "label": "palabra",
+        "kind": 5,
+        "importPath": "exercices-level-5.exercice-50",
+        "description": "exercices-level-5.exercice-50",
+        "peekOfCode": "palabra = palabra[::-1]\nfor char in palabra:\n        print(char)",
+        "detail": "exercices-level-5.exercice-50",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-51",
+        "description": "exercices-level-6.exercice-51",
+        "peekOfCode": "frase = input('Ingrese una frase y una letra (separados por una coma): ')\nfrase = frase.split(',')\nif len(frase) != 2:\n    print(\"Por favor, ingrese una frase y una letra, separados por una coma.\")\nelse:\n    texto = frase[0].strip()\n    letra = frase[1].strip() \n    veces = 0\n    for char in texto:\n        if char.lower() == letra.lower():",
+        "detail": "exercices-level-6.exercice-51",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-51",
+        "description": "exercices-level-6.exercice-51",
+        "peekOfCode": "frase = frase.split(',')\nif len(frase) != 2:\n    print(\"Por favor, ingrese una frase y una letra, separados por una coma.\")\nelse:\n    texto = frase[0].strip()\n    letra = frase[1].strip() \n    veces = 0\n    for char in texto:\n        if char.lower() == letra.lower():\n            veces += 1",
+        "detail": "exercices-level-6.exercice-51",
+        "documentation": {}
+    },
+    {
+        "label": "materias",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-53",
+        "description": "exercices-level-6.exercice-53",
+        "peekOfCode": "materias = input('Introduce tus materias separadas por una coma: ')\nmaterias = materias.split(\",\")\nfor i in materias:\n    print(i.strip())",
+        "detail": "exercices-level-6.exercice-53",
+        "documentation": {}
+    },
+    {
+        "label": "materias",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-53",
+        "description": "exercices-level-6.exercice-53",
+        "peekOfCode": "materias = materias.split(\",\")\nfor i in materias:\n    print(i.strip())",
+        "detail": "exercices-level-6.exercice-53",
+        "documentation": {}
+    },
+    {
+        "label": "materias",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-54",
+        "description": "exercices-level-6.exercice-54",
+        "peekOfCode": "materias = input('Introduce tus materias separadas por una coma: ')\nmaterias = materias.split(\",\")\nfor i in materias:\n    print(f'Yo estudio {i.strip()}')",
+        "detail": "exercices-level-6.exercice-54",
+        "documentation": {}
+    },
+    {
+        "label": "materias",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-54",
+        "description": "exercices-level-6.exercice-54",
+        "peekOfCode": "materias = materias.split(\",\")\nfor i in materias:\n    print(f'Yo estudio {i.strip()}')",
+        "detail": "exercices-level-6.exercice-54",
+        "documentation": {}
+    },
+    {
+        "label": "subjects",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-55",
+        "description": "exercices-level-6.exercice-55",
+        "peekOfCode": "subjects = [\"Matemáticas\", \"Física\", \"Química\", \"Historia\", \"Lengua\"]\nscores = []\nfor subject in subjects:\n    score = input(\"¿Qué nota has sacado en \" + subject + \"?: \")\n    scores.append(score)\nfor i in range(len(subjects)):\n    print(\"En \" + subjects[i] + \" has sacado \" + scores[i])",
+        "detail": "exercices-level-6.exercice-55",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-55",
+        "description": "exercices-level-6.exercice-55",
+        "peekOfCode": "scores = []\nfor subject in subjects:\n    score = input(\"¿Qué nota has sacado en \" + subject + \"?: \")\n    scores.append(score)\nfor i in range(len(subjects)):\n    print(\"En \" + subjects[i] + \" has sacado \" + scores[i])",
+        "detail": "exercices-level-6.exercice-55",
+        "documentation": {}
+    },
+    {
+        "label": "numeros_ganadores",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-56",
+        "description": "exercices-level-6.exercice-56",
+        "peekOfCode": "numeros_ganadores = input('Ingrese los numeros ganadores de la loteria: ')\nnumeros_ganadores = numeros_ganadores.split(',')\nnumeros_ganadores.sort()\nprint(numeros_ganadores)",
+        "detail": "exercices-level-6.exercice-56",
+        "documentation": {}
+    },
+    {
+        "label": "numeros_ganadores",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-56",
+        "description": "exercices-level-6.exercice-56",
+        "peekOfCode": "numeros_ganadores = numeros_ganadores.split(',')\nnumeros_ganadores.sort()\nprint(numeros_ganadores)",
+        "detail": "exercices-level-6.exercice-56",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-57",
+        "description": "exercices-level-6.exercice-57",
+        "peekOfCode": "numeros = [1,2,3,4,5,6,7,8,9,10]\nnumeros = numeros[::-1]\nprint(numeros)",
+        "detail": "exercices-level-6.exercice-57",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-57",
+        "description": "exercices-level-6.exercice-57",
+        "peekOfCode": "numeros = numeros[::-1]\nprint(numeros)",
+        "detail": "exercices-level-6.exercice-57",
+        "documentation": {}
+    },
+    {
+        "label": "subjects",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-58",
+        "description": "exercices-level-6.exercice-58",
+        "peekOfCode": "subjects = [\"Matemáticas\", \"Física\", \"Química\", \"Historia\", \"Lengua\"]\nscores = []\nfor subject in subjects:\n    score = input(\"¿Qué nota has sacado en \" + subject + \"?: \")\n    scores.append(score)\nrepetir = []\nfor subject in subjects:\n    if scores[subjects.index(subject)] >= 5:\n        repetir.append[subject]\nprint(f'Tienes que repetir {repetir}')",
+        "detail": "exercices-level-6.exercice-58",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-58",
+        "description": "exercices-level-6.exercice-58",
+        "peekOfCode": "scores = []\nfor subject in subjects:\n    score = input(\"¿Qué nota has sacado en \" + subject + \"?: \")\n    scores.append(score)\nrepetir = []\nfor subject in subjects:\n    if scores[subjects.index(subject)] >= 5:\n        repetir.append[subject]\nprint(f'Tienes que repetir {repetir}')",
+        "detail": "exercices-level-6.exercice-58",
+        "documentation": {}
+    },
+    {
+        "label": "repetir",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-58",
+        "description": "exercices-level-6.exercice-58",
+        "peekOfCode": "repetir = []\nfor subject in subjects:\n    if scores[subjects.index(subject)] >= 5:\n        repetir.append[subject]\nprint(f'Tienes que repetir {repetir}')",
+        "detail": "exercices-level-6.exercice-58",
+        "documentation": {}
+    },
+    {
+        "label": "abecedario",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-59",
+        "description": "exercices-level-6.exercice-59",
+        "peekOfCode": "abecedario = ['a','b','c','d','e','f','g','h','i','j','k','l', 'ñ','m','n','o','p','q','r','s','t','u','v','w','x','y','z']\nfor i in range(len(abecedario),1,-1):\n    if i % 3 == 0:\n        abecedario.pop(i-1)\nprint(abecedario)",
+        "detail": "exercices-level-6.exercice-59",
+        "documentation": {}
+    },
+    {
+        "label": "palabra",
+        "kind": 5,
+        "importPath": "exercices-level-6.exercice-60",
+        "description": "exercices-level-6.exercice-60",
+        "peekOfCode": "palabra = str(input('Ingrese una palabra: '))\nif palabra[::-1] != palabra:\n    print('La palabra ingresada no es un palíndromo')\nelse:\n    print('La palabra ingresada es un palíndromo')",
+        "detail": "exercices-level-6.exercice-60",
+        "documentation": {}
+    },
+    {
+        "label": "palabra",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-61",
+        "description": "exercices-level-7.exercice-61",
+        "peekOfCode": "palabra = str(input('Ingrese una palabra: '))\nvocales = 'aeiou'\ncounter = 0\nfor char in palabra:\n    for j in vocales:\n        if char.lower() == j:\n            counter += 1\nprint(counter)",
+        "detail": "exercices-level-7.exercice-61",
+        "documentation": {}
+    },
+    {
+        "label": "vocales",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-61",
+        "description": "exercices-level-7.exercice-61",
+        "peekOfCode": "vocales = 'aeiou'\ncounter = 0\nfor char in palabra:\n    for j in vocales:\n        if char.lower() == j:\n            counter += 1\nprint(counter)",
+        "detail": "exercices-level-7.exercice-61",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-61",
+        "description": "exercices-level-7.exercice-61",
+        "peekOfCode": "counter = 0\nfor char in palabra:\n    for j in vocales:\n        if char.lower() == j:\n            counter += 1\nprint(counter)",
+        "detail": "exercices-level-7.exercice-61",
+        "documentation": {}
+    },
+    {
+        "label": "precios",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-62",
+        "description": "exercices-level-7.exercice-62",
+        "peekOfCode": "precios = [50, 75, 46, 22, 80, 65, 8]\nprint(f'Mayor: {max(precios)}, Menor: {min(precios)}')",
+        "detail": "exercices-level-7.exercice-62",
+        "documentation": {}
+    },
+    {
+        "label": "vector1",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-63",
+        "description": "exercices-level-7.exercice-63",
+        "peekOfCode": "vector1 = [1,2,3]\nvector2 = [-1,0,2]\nprint(f'Producto escalar de los vectores 1 y 2: {(vector1[0]*vector2[0]) + (vector1[1]*vector2[1]) + (vector1[2]*vector2[2])}')",
+        "detail": "exercices-level-7.exercice-63",
+        "documentation": {}
+    },
+    {
+        "label": "vector2",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-63",
+        "description": "exercices-level-7.exercice-63",
+        "peekOfCode": "vector2 = [-1,0,2]\nprint(f'Producto escalar de los vectores 1 y 2: {(vector1[0]*vector2[0]) + (vector1[1]*vector2[1]) + (vector1[2]*vector2[2])}')",
+        "detail": "exercices-level-7.exercice-63",
+        "documentation": {}
+    },
+    {
+        "label": "muestra_numeros",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-64",
+        "description": "exercices-level-7.exercice-64",
+        "peekOfCode": "muestra_numeros = input('Inghrese una muestra de numeros separados por comas: ')\nmuestra_numeros = muestra_numeros.split(',')\nsuma_numeros = 0\nfor i in muestra_numeros:\n    suma_numeros += int(i)\nmedia = suma_numeros/len(muestra_numeros)\nnumerador = 0\nfor i in muestra_numeros:\n    a = pow(int(i)-media,2)\n    numerador += a",
+        "detail": "exercices-level-7.exercice-64",
+        "documentation": {}
+    },
+    {
+        "label": "muestra_numeros",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-64",
+        "description": "exercices-level-7.exercice-64",
+        "peekOfCode": "muestra_numeros = muestra_numeros.split(',')\nsuma_numeros = 0\nfor i in muestra_numeros:\n    suma_numeros += int(i)\nmedia = suma_numeros/len(muestra_numeros)\nnumerador = 0\nfor i in muestra_numeros:\n    a = pow(int(i)-media,2)\n    numerador += a\ndesviacion = m.sqrt(numerador/len(muestra_numeros))",
+        "detail": "exercices-level-7.exercice-64",
+        "documentation": {}
+    },
+    {
+        "label": "suma_numeros",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-64",
+        "description": "exercices-level-7.exercice-64",
+        "peekOfCode": "suma_numeros = 0\nfor i in muestra_numeros:\n    suma_numeros += int(i)\nmedia = suma_numeros/len(muestra_numeros)\nnumerador = 0\nfor i in muestra_numeros:\n    a = pow(int(i)-media,2)\n    numerador += a\ndesviacion = m.sqrt(numerador/len(muestra_numeros))\nprint(f'La media es: {media}. la desviacion tipica es {desviacion}')",
+        "detail": "exercices-level-7.exercice-64",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-64",
+        "description": "exercices-level-7.exercice-64",
+        "peekOfCode": "media = suma_numeros/len(muestra_numeros)\nnumerador = 0\nfor i in muestra_numeros:\n    a = pow(int(i)-media,2)\n    numerador += a\ndesviacion = m.sqrt(numerador/len(muestra_numeros))\nprint(f'La media es: {media}. la desviacion tipica es {desviacion}')",
+        "detail": "exercices-level-7.exercice-64",
+        "documentation": {}
+    },
+    {
+        "label": "numerador",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-64",
+        "description": "exercices-level-7.exercice-64",
+        "peekOfCode": "numerador = 0\nfor i in muestra_numeros:\n    a = pow(int(i)-media,2)\n    numerador += a\ndesviacion = m.sqrt(numerador/len(muestra_numeros))\nprint(f'La media es: {media}. la desviacion tipica es {desviacion}')",
+        "detail": "exercices-level-7.exercice-64",
+        "documentation": {}
+    },
+    {
+        "label": "desviacion",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-64",
+        "description": "exercices-level-7.exercice-64",
+        "peekOfCode": "desviacion = m.sqrt(numerador/len(muestra_numeros))\nprint(f'La media es: {media}. la desviacion tipica es {desviacion}')",
+        "detail": "exercices-level-7.exercice-64",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-65",
+        "description": "exercices-level-7.exercice-65",
+        "peekOfCode": "d = {'Euro':'€', 'Dollar':'$', 'Yen':'¥'}\ndivisa = input(\"Ingrese una divisa: \")\nif divisa.capitalize() in d:\n    print(f'La divisa si está en el diccionario y su simbolo es {d[divisa.capitalize()]}')\nelse:\n    print('La divisa no está en el diccionario')",
+        "detail": "exercices-level-7.exercice-65",
+        "documentation": {}
+    },
+    {
+        "label": "divisa",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-65",
+        "description": "exercices-level-7.exercice-65",
+        "peekOfCode": "divisa = input(\"Ingrese una divisa: \")\nif divisa.capitalize() in d:\n    print(f'La divisa si está en el diccionario y su simbolo es {d[divisa.capitalize()]}')\nelse:\n    print('La divisa no está en el diccionario')",
+        "detail": "exercices-level-7.exercice-65",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-66",
+        "description": "exercices-level-7.exercice-66",
+        "peekOfCode": "data = input('Ingrese su nombre, edad, dirección y teléfono. Separados por comas: ')\ndata = data.split(',')\ndiccionario = {\n    'nombre': data[0],\n    'edad': data[1],\n    'direccion': data[2],\n    'telefono': data[3]\n}\nprint(f'{diccionario[\"nombre\"]} tiene {diccionario[\"edad\"]} años, vive en {diccionario['direccion']} y su numero de telefono es {diccionario[\"telefono\"]}')",
+        "detail": "exercices-level-7.exercice-66",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-66",
+        "description": "exercices-level-7.exercice-66",
+        "peekOfCode": "data = data.split(',')\ndiccionario = {\n    'nombre': data[0],\n    'edad': data[1],\n    'direccion': data[2],\n    'telefono': data[3]\n}\nprint(f'{diccionario[\"nombre\"]} tiene {diccionario[\"edad\"]} años, vive en {diccionario['direccion']} y su numero de telefono es {diccionario[\"telefono\"]}')",
+        "detail": "exercices-level-7.exercice-66",
+        "documentation": {}
+    },
+    {
+        "label": "diccionario",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-66",
+        "description": "exercices-level-7.exercice-66",
+        "peekOfCode": "diccionario = {\n    'nombre': data[0],\n    'edad': data[1],\n    'direccion': data[2],\n    'telefono': data[3]\n}\nprint(f'{diccionario[\"nombre\"]} tiene {diccionario[\"edad\"]} años, vive en {diccionario['direccion']} y su numero de telefono es {diccionario[\"telefono\"]}')",
+        "detail": "exercices-level-7.exercice-66",
+        "documentation": {}
+    },
+    {
+        "label": "fecha",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-67",
+        "description": "exercices-level-7.exercice-67",
+        "peekOfCode": "fecha = input('Ingrese una fecha en formato (dd/mm/aaaa): ')\nfecha = fecha.split('/')\nmeses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']\nprint(f'{fecha[0]} de {meses[int(fecha[1])-1]} de {fecha[2]}')",
+        "detail": "exercices-level-7.exercice-67",
+        "documentation": {}
+    },
+    {
+        "label": "fecha",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-67",
+        "description": "exercices-level-7.exercice-67",
+        "peekOfCode": "fecha = fecha.split('/')\nmeses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']\nprint(f'{fecha[0]} de {meses[int(fecha[1])-1]} de {fecha[2]}')",
+        "detail": "exercices-level-7.exercice-67",
+        "documentation": {}
+    },
+    {
+        "label": "meses",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-67",
+        "description": "exercices-level-7.exercice-67",
+        "peekOfCode": "meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']\nprint(f'{fecha[0]} de {meses[int(fecha[1])-1]} de {fecha[2]}')",
+        "detail": "exercices-level-7.exercice-67",
+        "documentation": {}
+    },
+    {
+        "label": "creditos",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-68",
+        "description": "exercices-level-7.exercice-68",
+        "peekOfCode": "creditos = {'Matemáticas': 6, 'Física': 4, 'Química': 5}\ncreditos_totales = 0\nfor i in creditos:\n    creditos_totales += creditos[i]\n    print(f'{i} tiene {creditos[i]} créditos')\nprint(f'Los creditos totales son {creditos_totales}')",
+        "detail": "exercices-level-7.exercice-68",
+        "documentation": {}
+    },
+    {
+        "label": "creditos_totales",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-68",
+        "description": "exercices-level-7.exercice-68",
+        "peekOfCode": "creditos_totales = 0\nfor i in creditos:\n    creditos_totales += creditos[i]\n    print(f'{i} tiene {creditos[i]} créditos')\nprint(f'Los creditos totales son {creditos_totales}')",
+        "detail": "exercices-level-7.exercice-68",
+        "documentation": {}
+    },
+    {
+        "label": "persona",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-69",
+        "description": "exercices-level-7.exercice-69",
+        "peekOfCode": "persona = {}\ncampos = [\"nombre\", \"edad\", \"sexo\", \"teléfono\", \"correo electrónico\"]\nfor campo in campos:\n    valor = input(f\"Ingrese {campo}: \")  \n    persona[campo] = valor               \n    print(\"Diccionario actualizado:\", persona)",
+        "detail": "exercices-level-7.exercice-69",
+        "documentation": {}
+    },
+    {
+        "label": "campos",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-69",
+        "description": "exercices-level-7.exercice-69",
+        "peekOfCode": "campos = [\"nombre\", \"edad\", \"sexo\", \"teléfono\", \"correo electrónico\"]\nfor campo in campos:\n    valor = input(f\"Ingrese {campo}: \")  \n    persona[campo] = valor               \n    print(\"Diccionario actualizado:\", persona)",
+        "detail": "exercices-level-7.exercice-69",
+        "documentation": {}
+    },
+    {
+        "label": "diccionario",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-70",
+        "description": "exercices-level-7.exercice-70",
+        "peekOfCode": "diccionario = {}\npalabras = input(\"Introduce la lista de palabras y traducciones en formato palabra:traducción separadas por comas: \")\nfor i in palabras.split(','):\n    clave, valor = i.split(':')\n    diccionario[clave] = valor\nfrase = input('Introduce una frase en español: ')\nfor i in frase.split():\n    if i in diccionario:\n        print(diccionario[i], end=' ')\n    else:",
+        "detail": "exercices-level-7.exercice-70",
+        "documentation": {}
+    },
+    {
+        "label": "palabras",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-70",
+        "description": "exercices-level-7.exercice-70",
+        "peekOfCode": "palabras = input(\"Introduce la lista de palabras y traducciones en formato palabra:traducción separadas por comas: \")\nfor i in palabras.split(','):\n    clave, valor = i.split(':')\n    diccionario[clave] = valor\nfrase = input('Introduce una frase en español: ')\nfor i in frase.split():\n    if i in diccionario:\n        print(diccionario[i], end=' ')\n    else:\n        print(i, end=' ')",
+        "detail": "exercices-level-7.exercice-70",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "exercices-level-7.exercice-70",
+        "description": "exercices-level-7.exercice-70",
+        "peekOfCode": "frase = input('Introduce una frase en español: ')\nfor i in frase.split():\n    if i in diccionario:\n        print(diccionario[i], end=' ')\n    else:\n        print(i, end=' ')",
+        "detail": "exercices-level-7.exercice-70",
+        "documentation": {}
+    },
+    {
+        "label": "facturas",
+        "kind": 5,
+        "importPath": "exercices-level-8.exercice-71",
+        "description": "exercices-level-8.exercice-71",
+        "peekOfCode": "facturas = {}\ncobrado = 0\npendiente = 0\nmore = ''\nwhile more != 'T':\n    if more == 'A':\n        clave = input('Introduce el número de la factura: ')\n        coste = float(input('Introduce el coste de la factura: '))\n        facturas[clave] = coste\n        pendiente += coste",
+        "detail": "exercices-level-8.exercice-71",
+        "documentation": {}
+    },
+    {
+        "label": "cobrado",
+        "kind": 5,
+        "importPath": "exercices-level-8.exercice-71",
+        "description": "exercices-level-8.exercice-71",
+        "peekOfCode": "cobrado = 0\npendiente = 0\nmore = ''\nwhile more != 'T':\n    if more == 'A':\n        clave = input('Introduce el número de la factura: ')\n        coste = float(input('Introduce el coste de la factura: '))\n        facturas[clave] = coste\n        pendiente += coste\n    if more == 'P':",
+        "detail": "exercices-level-8.exercice-71",
+        "documentation": {}
+    },
+    {
+        "label": "pendiente",
+        "kind": 5,
+        "importPath": "exercices-level-8.exercice-71",
+        "description": "exercices-level-8.exercice-71",
+        "peekOfCode": "pendiente = 0\nmore = ''\nwhile more != 'T':\n    if more == 'A':\n        clave = input('Introduce el número de la factura: ')\n        coste = float(input('Introduce el coste de la factura: '))\n        facturas[clave] = coste\n        pendiente += coste\n    if more == 'P':\n        clave = input('Introduce el número de la factura a pagar: ')",
+        "detail": "exercices-level-8.exercice-71",
+        "documentation": {}
+    },
+    {
+        "label": "more",
+        "kind": 5,
+        "importPath": "exercices-level-8.exercice-71",
+        "description": "exercices-level-8.exercice-71",
+        "peekOfCode": "more = ''\nwhile more != 'T':\n    if more == 'A':\n        clave = input('Introduce el número de la factura: ')\n        coste = float(input('Introduce el coste de la factura: '))\n        facturas[clave] = coste\n        pendiente += coste\n    if more == 'P':\n        clave = input('Introduce el número de la factura a pagar: ')\n        coste = facturas.pop(clave, 0)",
+        "detail": "exercices-level-8.exercice-71",
+        "documentation": {}
+    },
+    {
+        "label": "clientes",
+        "kind": 5,
+        "importPath": "exercices-level-8.exercice-72",
+        "description": "exercices-level-8.exercice-72",
+        "peekOfCode": "clientes = {}\nopcion = ''\nwhile opcion != '6':\n      if opcion == '1':\n         nif = input('Introduce NIF del cliente: ')\n         nombre = input('Introduce el nombre del cliente: ')\n         direccion = input('Introduce la dirección del cliente: ')\n         telefono = input('Introduce el teléfono del cliente: ')\n         email = input('Introduce el correo electrónico del cliente: ')\n         vip = input('¿Es un cliente preferente (S/N)? ')",
+        "detail": "exercices-level-8.exercice-72",
+        "documentation": {}
+    },
+    {
+        "label": "opcion",
+        "kind": 5,
+        "importPath": "exercices-level-8.exercice-72",
+        "description": "exercices-level-8.exercice-72",
+        "peekOfCode": "opcion = ''\nwhile opcion != '6':\n      if opcion == '1':\n         nif = input('Introduce NIF del cliente: ')\n         nombre = input('Introduce el nombre del cliente: ')\n         direccion = input('Introduce la dirección del cliente: ')\n         telefono = input('Introduce el teléfono del cliente: ')\n         email = input('Introduce el correo electrónico del cliente: ')\n         vip = input('¿Es un cliente preferente (S/N)? ')\n         cliente = {'nombre':nombre, 'dirección':direccion, 'teléfono':telefono, 'email':email, 'preferente':vip=='S'}",
+        "detail": "exercices-level-8.exercice-72",
+        "documentation": {}
+    },
+    {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "exercices-level-8.exercice-73",
+        "description": "exercices-level-8.exercice-73",
+        "peekOfCode": "def say_hello():\n    print(\"¡Hola amiga!\")",
+        "detail": "exercices-level-8.exercice-73",
+        "documentation": {}
+    },
+    {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "exercices-level-8.exercice-74",
+        "description": "exercices-level-8.exercice-74",
+        "peekOfCode": "def say_hello(n):\n    print(f'¡hola {n}!')",
+        "detail": "exercices-level-8.exercice-74",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercices-level-8.exercice-75",
+        "description": "exercices-level-8.exercice-75",
+        "peekOfCode": "n = input('mete un numero: ')\nprint(math.factorial(int(n)))",
+        "detail": "exercices-level-8.exercice-75",
+        "documentation": {}
+    },
+    {
+        "label": "calc_iva",
+        "kind": 2,
+        "importPath": "exercices-level-8.exercice-76",
+        "description": "exercices-level-8.exercice-76",
+        "peekOfCode": "def calc_iva(precio, porc=0.021):\n    return (int(precio) * porc) + precio\nprint(calc_iva(500))",
+        "detail": "exercices-level-8.exercice-76",
+        "documentation": {}
+    },
+    {
+        "label": "circulo",
+        "kind": 2,
+        "importPath": "exercices-level-8.exercice-77",
+        "description": "exercices-level-8.exercice-77",
+        "peekOfCode": "def circulo(a, radio = 0, altura = 0):\n    if a == 'volumen':\n        return math.pi*math.pow(radio, 2)*altura\n    elif a == 'area':\n        return math.pi*math.pow(radio, 2)",
+        "detail": "exercices-level-8.exercice-77",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 2,
+        "importPath": "exercices-level-8.exercice-78",
+        "description": "exercices-level-8.exercice-78",
+        "peekOfCode": "def media(*args):\n    suma = 0\n    for i in args:\n        suma += i\n    return suma/len(args)\nprint(media(1,2,3,4,5,6))",
+        "detail": "exercices-level-8.exercice-78",
+        "documentation": {}
+    },
+    {
+        "label": "cuadrados",
+        "kind": 2,
+        "importPath": "exercices-level-8.exercice-79",
+        "description": "exercices-level-8.exercice-79",
+        "peekOfCode": "def cuadrados(*x):\n    return [i**2 for i in x]\nprint(cuadrados(1,2,3,4,5,6,))",
+        "detail": "exercices-level-8.exercice-79",
+        "documentation": {}
+    },
+    {
+        "label": "estadisticas",
+        "kind": 2,
+        "importPath": "exercices-level-8.exercice-80",
+        "description": "exercices-level-8.exercice-80",
+        "peekOfCode": "def estadisticas(lista):\n    diccionario = {\n        'media': sum(lista) / len(lista),\n        'varianza': None,\n        \"desviacion tipica\": None\n    }\n    varianza = 0\n    for i in lista:\n        varianza += (diccionario['media']-i)**2\n    desviacion_tipica = math.sqrt(varianza)",
+        "detail": "exercices-level-8.exercice-80",
+        "documentation": {}
+    },
+    {
+        "label": "mcd",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-81",
+        "description": "exercices-level-9.exercice-81",
+        "peekOfCode": "def mcd(n, m):\n    rest = 0\n    while(m > 0):\n        rest = m\n        m = n % m\n        n = rest\n    return n\ndef mcm(n, m):\n    if n > m:\n        g = n",
+        "detail": "exercices-level-9.exercice-81",
+        "documentation": {}
+    },
+    {
+        "label": "mcm",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-81",
+        "description": "exercices-level-9.exercice-81",
+        "peekOfCode": "def mcm(n, m):\n    if n > m:\n        g = n\n    else:\n        g = m\n    while (g % n != 0) or (g % m != 0):\n        g += 1\n    return g\nprint(mcd(24,36))\nprint(mcm(24,36))",
+        "detail": "exercices-level-9.exercice-81",
+        "documentation": {}
+    },
+    {
+        "label": "to_decimal",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-82",
+        "description": "exercices-level-9.exercice-82",
+        "peekOfCode": "def to_decimal(n):\n    n = list(n)\n    n.reverse()\n    decimal = 0\n    for i in range(len(n)):\n        decimal += int(n[i]) * 2 ** i\n    return decimal\ndef to_binary(n):\n    binary = []\n    while n > 0:",
+        "detail": "exercices-level-9.exercice-82",
+        "documentation": {}
+    },
+    {
+        "label": "to_binary",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-82",
+        "description": "exercices-level-9.exercice-82",
+        "peekOfCode": "def to_binary(n):\n    binary = []\n    while n > 0:\n        binary.append(str(n % 2))\n        n //= 2\n    binary.reverse()\n    return ''.join(binary)\nprint(to_decimal('10110'))\nprint(to_binary(22))\nprint(to_decimal(to_binary(22)))",
+        "detail": "exercices-level-9.exercice-82",
+        "documentation": {}
+    },
+    {
+        "label": "count_words",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-83",
+        "description": "exercices-level-9.exercice-83",
+        "peekOfCode": "def count_words(text):\n    text = text.split()\n    words = {}\n    for i in text:\n        if i in words:\n            words[i] += 1\n        else:\n            words[i] = 1\n    return words\ndef most_repeated(words):",
+        "detail": "exercices-level-9.exercice-83",
+        "documentation": {}
+    },
+    {
+        "label": "most_repeated",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-83",
+        "description": "exercices-level-9.exercice-83",
+        "peekOfCode": "def most_repeated(words):\n    max_word = ''\n    max_freq = 0\n    for word, freq in words.items():\n        if freq > max_freq:\n            max_word = word\n            max_freq = freq\n    return max_word, max_freq\ntext = 'Como quieres que te quiera si el que quiero que me quiera no me quiere como quiero que me quiera'\nprint(count_words(text))",
+        "detail": "exercices-level-9.exercice-83",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "exercices-level-9.exercice-83",
+        "description": "exercices-level-9.exercice-83",
+        "peekOfCode": "text = 'Como quieres que te quiera si el que quiero que me quiera no me quiere como quiero que me quiera'\nprint(count_words(text))\nprint(most_repeated(count_words(text)))",
+        "detail": "exercices-level-9.exercice-83",
+        "documentation": {}
+    },
+    {
+        "label": "apply_discount",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-84",
+        "description": "exercices-level-9.exercice-84",
+        "peekOfCode": "def apply_discount(price, discount):\n    return price - price * discount / 100\ndef apply_IVA(price, percentage):\n    return price + price * percentage / 100\ndef price_basket(basket, function):\n    total = 0\n    for price, discount in basket.items():\n        total += function(price, discount)\n    return total\nprint('El precio de la compra tras aplicar los descuentos es: ', price_basket({1000:20, 500:10, 100:1}, apply_discount))",
+        "detail": "exercices-level-9.exercice-84",
+        "documentation": {}
+    },
+    {
+        "label": "apply_IVA",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-84",
+        "description": "exercices-level-9.exercice-84",
+        "peekOfCode": "def apply_IVA(price, percentage):\n    return price + price * percentage / 100\ndef price_basket(basket, function):\n    total = 0\n    for price, discount in basket.items():\n        total += function(price, discount)\n    return total\nprint('El precio de la compra tras aplicar los descuentos es: ', price_basket({1000:20, 500:10, 100:1}, apply_discount))\nprint('El precio de la compra tras aplicar el IVA es: ', price_basket({1000:20, 500:10, 100:1}, apply_IVA))",
+        "detail": "exercices-level-9.exercice-84",
+        "documentation": {}
+    },
+    {
+        "label": "price_basket",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-84",
+        "description": "exercices-level-9.exercice-84",
+        "peekOfCode": "def price_basket(basket, function):\n    total = 0\n    for price, discount in basket.items():\n        total += function(price, discount)\n    return total\nprint('El precio de la compra tras aplicar los descuentos es: ', price_basket({1000:20, 500:10, 100:1}, apply_discount))\nprint('El precio de la compra tras aplicar el IVA es: ', price_basket({1000:20, 500:10, 100:1}, apply_IVA))",
+        "detail": "exercices-level-9.exercice-84",
+        "documentation": {}
+    },
+    {
+        "label": "apply_function",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-85",
+        "description": "exercices-level-9.exercice-85",
+        "peekOfCode": "def apply_function(f, n):\n    functions = {'sin':sin, 'cos':cos, 'tan':tan, 'exp':exp, 'log':log}\n    result = {}\n    for i in range(1, n+1):\n        result[i] = functions[f](i)\n    return result\ndef calculator():\n    f = input('Introduce la función a aplicar (sin, cos, tan, exp, log): ')\n    n = int(input('Introduce un entero positivo: '))\n    for i, j in apply_function(f, n).items():",
+        "detail": "exercices-level-9.exercice-85",
+        "documentation": {}
+    },
+    {
+        "label": "calculator",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-85",
+        "description": "exercices-level-9.exercice-85",
+        "peekOfCode": "def calculator():\n    f = input('Introduce la función a aplicar (sin, cos, tan, exp, log): ')\n    n = int(input('Introduce un entero positivo: '))\n    for i, j in apply_function(f, n).items():\n        print (i, '\\t', j)\n    return\ncalculator()",
+        "detail": "exercices-level-9.exercice-85",
+        "documentation": {}
+    },
+    {
+        "label": "aplica_funcion_lista",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-86",
+        "description": "exercices-level-9.exercice-86",
+        "peekOfCode": "def aplica_funcion_lista(funcion, lista):\n    l = []\n    for i in lista:\n        l.append(funcion(i))\n    return l\ndef cuadrado(n):\n    return n * n\nprint(aplica_funcion_lista(cuadrado, [1, 2, 3, 4]))",
+        "detail": "exercices-level-9.exercice-86",
+        "documentation": {}
+    },
+    {
+        "label": "cuadrado",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-86",
+        "description": "exercices-level-9.exercice-86",
+        "peekOfCode": "def cuadrado(n):\n    return n * n\nprint(aplica_funcion_lista(cuadrado, [1, 2, 3, 4]))",
+        "detail": "exercices-level-9.exercice-86",
+        "documentation": {}
+    },
+    {
+        "label": "filtra_lista",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-87",
+        "description": "exercices-level-9.exercice-87",
+        "peekOfCode": "def filtra_lista(funcion, lista):\n    l = []\n    for i in lista:\n        if funcion(i):\n            l.append(i)\n    return l\ndef par(n):\n    return n % 2 == 0\nprint(filtra_lista(par, [1, 2, 3, 4, 5, 6]))",
+        "detail": "exercices-level-9.exercice-87",
+        "documentation": {}
+    },
+    {
+        "label": "par",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-87",
+        "description": "exercices-level-9.exercice-87",
+        "peekOfCode": "def par(n):\n    return n % 2 == 0\nprint(filtra_lista(par, [1, 2, 3, 4, 5, 6]))",
+        "detail": "exercices-level-9.exercice-87",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-88",
+        "description": "exercices-level-9.exercice-88",
+        "peekOfCode": "def contador(frase):\n    words = frase.split()\n    lengths = map(len, words)\n    return dict(zip(words, lengths))\nprint(contador('pene ultra duro'))",
+        "detail": "exercices-level-9.exercice-88",
+        "documentation": {}
+    },
+    {
+        "label": "grade",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-89",
+        "description": "exercices-level-9.exercice-89",
+        "peekOfCode": "def grade(score):\n    if score < 5:\n        return 'SS'\n    elif score < 7:\n        return 'AP'\n    elif score < 9:\n        return 'NT'\n    elif score < 10:\n        return 'SB'\n    else:",
+        "detail": "exercices-level-9.exercice-89",
+        "documentation": {}
+    },
+    {
+        "label": "apply_grade",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-89",
+        "description": "exercices-level-9.exercice-89",
+        "peekOfCode": "def apply_grade(scores):\n    return list(map(grade, scores))\nprint(apply_grade([6.5, 5, 3.4, 8.2, 2.1, 9.7, 10]))",
+        "detail": "exercices-level-9.exercice-89",
+        "documentation": {}
+    },
+    {
+        "label": "grade",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-90",
+        "description": "exercices-level-9.exercice-90",
+        "peekOfCode": "def grade(score):\n    if score < 5:\n        return 'SS'\n    elif score < 7:\n        return 'AP'\n    elif score < 9:\n        return 'NT'\n    elif score < 10:\n        return 'SB'\n    else:",
+        "detail": "exercices-level-9.exercice-90",
+        "documentation": {}
+    },
+    {
+        "label": "apply_grade",
+        "kind": 2,
+        "importPath": "exercices-level-9.exercice-90",
+        "description": "exercices-level-9.exercice-90",
+        "peekOfCode": "def apply_grade(scores):\n    return {subject.upper():grade(score) for subject, score in scores.items() if score >= 5}\nprint(apply_grade({'Matemáticas':6.5, 'Física':5, 'Química':3.4, 'Economía':8.2, 'Historia':9.7, 'Programación':10}))",
+        "detail": "exercices-level-9.exercice-90",
+        "documentation": {}
+    }
+]
